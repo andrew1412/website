@@ -1,0 +1,24 @@
+{
+  "$schema": "schema.json",
+  "avatar": "/static/logos/pfp-bc-oa.png/mnt/Datos/Documentos/Andrew/Programacion/Paginas/website/static/logos/pfp-bc-oa.png",
+  "username": "Andrew 1412",
+  "links": [
+    { "url": "/blog", "title": "Blog" },
+    { "url": "/dibujos", "title": "Dibujos" },
+    { "url": "/fotos", "title": "Fotos" }
+  ],
+  "bio": "🐈‍⬛ Vtuber",
+  "location": "Chile",
+  "socialAccounts": {
+    "github": "https://github.com/andrew1412",
+    "youtube": "https://youtube.com/c/andrew1412",
+    "twitter": "https://twitter.com/",
+    "mail": "unserhumanomas@proton.me"
+  },
+  "banner": {
+    "title": "Nuevo blog!",
+    "text": "Ahora puedes entrar a mi blog y estar al día con lo que publico."
+  },
+  "rss": "https://odysee.com/$/rss/@andrew1412:5",
+  "readme": "https://gist.githubusercontent.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc/raw/d59043abbb123089ad6602aba571121b71d91d7f/README-Template.md"
+}

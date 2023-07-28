@@ -1,0 +1,24 @@
+{
+  "$schema": "schema.json",
+  "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg",
+  "username": "404",
+  "links": [
+    { "url": "https://example.com", "title": "Blog" },
+    { "url": "https://example.com", "title": "Dibujos" },
+    { "url": "https://example.com", "title": "Fotos" }
+  ],
+  "bio": "Pagina no encontrada",
+  "location": "¿Como llegaste aquí?",
+  "socialAccounts": {
+    "github": "https://github.com/andrew1412",
+    "youtube": "https://youtube.com/c/andrew1412",
+    "twitter": "https://twitter.com/",
+    "mail": "unserhumanomas@proton.me"
+  },
+  "banner": {
+    "title": "Nuevo blog!",
+    "text": "Ahora puedes entrar a mi blog y estar al día con lo que publico."
+  },
+  "rss": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+  "readme": "https://gist.githubusercontent.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc/raw/d59043abbb123089ad6602aba571121b71d91d7f/README-Template.md"
+}
