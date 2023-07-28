@@ -1,6 +1,6 @@
 {
   "$schema": "schema.json",
-  "avatar": "/static/logos/pfp-bc-oa.png/mnt/Datos/Documentos/Andrew/Programacion/Paginas/website/static/logos/pfp-bc-oa.png",
+  "avatar": "https://github.com/andrew1412/website/blob/main/static/logos/pfp-1.png",
   "username": "Andrew 1412",
   "links": [
     { "url": "/blog", "title": "Blog" },
