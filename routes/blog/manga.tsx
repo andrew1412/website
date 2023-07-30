@@ -1,6 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { getPost, getPosts, getTests, Post } from "@/utils/posts.ts";
+import { getPost, getPosts, Post } from "@/utils/posts.ts";
 import Footer from "../../components/BlogFooter.tsx";
 
 import jsonProfile from "../../profile/profile_blog.json" assert {
@@ -20,7 +20,9 @@ import Tags from "../../components/Tags.tsx";
 export const handler: Handlers<Post[]> = {
   async GET(_req, ctx) {
     const posts = await getPosts();
-    return ctx.render(posts);
+    const tag = "manga";
+    const filteredPosts = posts.filter((post) => post.tags?.includes(tag));
+    return ctx.render(filteredPosts);
   },
 };
 

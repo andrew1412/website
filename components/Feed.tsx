@@ -10,7 +10,6 @@ export default function Feed(
   props: {
     entry: {
       title: string;
-      image: string;
       date: Date;
       url: string;
     };
@@ -29,7 +28,6 @@ export default function Feed(
         <h2 class="text-lg font-bold text-gray-900 leading-snug mb-1 pr-5">
           {entry.title}
         </h2>
-        {entry.image}
         <h4 class="text-xs font-semibold text-gray-400">
           {(new Date(entry.date)).toLocaleDateString(
             "es-ES",

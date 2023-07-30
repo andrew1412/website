@@ -14,34 +14,6 @@ export interface Post {
   content: string;
 }
 
-export default function filterPosts(
-  posts: Map<string, Post>,
-  searchParams: URLSearchParams,
-) {
-  const tag = searchParams.get("tag");
-  if (!tag) {
-    return posts;
-  }
-  return new Map(
-    Array.from(posts.entries()).filter(([, p]) => p.tags?.includes(tag)),
-  );
-}
-
-export async function getTests(tag: string): Promise<Post[]> {
-  const files = Deno.readDir(DIRECTORY);
-  const promises = [];
-  for await (const file of files) {
-    const slug = file.name.replace(".md", "");
-    promises.push(getPost(slug));
-  }
-  let posts = await Promise.all(promises) as Post[];
-  if (tag) {
-    posts = posts.filter((p) => p.tags?.includes(tag));
-  }
-  posts.sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime());
-  return posts;
-}
-
 // Get posts (card).
 export async function getPosts(): Promise<Post[]> {
   const files = Deno.readDir(DIRECTORY);

@@ -1,5 +1,5 @@
 ---
-coverHtml: <img src="/mnt/Datos/Documentos/Andrew/Programacion/Paginas/website/static/logos/pfp-bc-oa.png" alt="foto de perfil de andrew1412" />
+coverHtml: https://github.com/andrew1412/website/blob/main/static/logos/pfp-1.png?raw=true
 title: This is my first blog post!
 published_at: 2023-07-25T09:12:00.000Z
 author: Andrew 1412
@@ -9,7 +9,7 @@ snippet: This is an excerpt of my first blog post.
 
 # The standard Lorem Ipsum passage, used since the 1500s
 
-[a](/static/logos/pfp-bc-oa.png)
+<img src="https://github.com/andrew1412/website/blob/main/static/logos/pfp-1.png?raw=true" alt=test/>
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis

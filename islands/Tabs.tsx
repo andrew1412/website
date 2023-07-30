@@ -18,7 +18,6 @@ interface TabsProps {
   }[];
   feed: {
     title: string;
-    image: string;
     date: Date;
     url: string;
   }[] | undefined;
@@ -99,7 +98,7 @@ export default function Tabs(props: TabsProps) {
                       <div class="flex flex-col items-center space-y-1 py-8">
                         <FileText size={32} color="#9ca3af" />
                         <h2 class="text-sm font-bold text-gray-400 leading-tight mb-1">
-                          No posts yet.
+                          No hay publicaciones todavia.
                         </h2>
                       </div>
                     )}

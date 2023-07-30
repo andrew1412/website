@@ -23,6 +23,7 @@ const fetchFeed = async (url: string) => {
     (
       entry: {
         title: { value: undefined };
+        image: { href: undefined }[];
         published: undefined;
         links: { href: undefined }[];
       },

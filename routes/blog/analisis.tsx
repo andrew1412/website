@@ -1,7 +1,8 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { getPost, getPosts, getTests, Post } from "@/utils/posts.ts";
+import { getPost, getPosts, Post } from "@/utils/posts.ts";
 import Footer from "../../components/BlogFooter.tsx";
+import { FileText, List } from "preact-feather";
 
 import jsonProfile from "../../profile/profile_blog.json" assert {
   type: "json",
@@ -16,12 +17,13 @@ import SocialLinksComponent from "../../components/SocialLinks.tsx";
 import BannerComponent from "../../components/Banner.tsx";
 import ReadmeButtonComponent from "../../components/ReadmeButton.tsx";
 import Tags from "../../components/Tags.tsx";
-import filterPosts from "../../components/FilterPosts.tsx";
 
 export const handler: Handlers<Post[]> = {
   async GET(_req, ctx) {
     const posts = await getPosts();
-    return ctx.render(posts);
+    const tag = "analisis";
+    const filteredPosts = posts.filter((post) => post.tags?.includes(tag));
+    return ctx.render(filteredPosts);
   },
 };
 
@@ -118,7 +120,7 @@ export default function Blog(props: PageProps<Post[]>) {
             </div>
           </div>
           <div class="mt-8">
-            {posts.map((post) => <PostCard post={post} />)}
+            {posts && posts.map((post) => <PostCard post={post} />)}
           </div>
         </div>
         <div class="flex flex-col items-center w-full w-full p-4">

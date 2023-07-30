@@ -33,12 +33,10 @@ export default function PostPage(props: PageProps<Post>) {
       <Head>
         <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
-      <div class="section-x-inset-2xl py-4.5 h-full">
-      </div>
-      <div class="flex flex-col mx-auto max-w-screen-sm max-w-lg w-full items-center mt-4 sm:mt-0">
-        {post.coverHtml && <img src={post.coverHtml} alt={post.title} />}
-      </div>
       <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
+        <div class="mx-auto max-w-screen-sm max-w-lg w-full mt-4 sm:mt-0">
+          {post.coverHtml && <img src={post.coverHtml} alt={post.title} />}
+        </div>
         <h1 class="mt-6 text-5xl font-bold">{post.title}</h1>
         <div class="mt-8">
           <p>
