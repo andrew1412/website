@@ -11,15 +11,15 @@ Soy un Vtuber que quiere compartir sus ideas en Internet.
 1. [¿Por qué un gato?](#¿por-qué-un-gato?)
 2. ¿Por qué 1412?
 3. Mis creencias
-4. Religión
-5. Posición política
-6. Preferencias
-7. Anime
-8. Manga
-9. Videojuegos
-10. Musica
-11. Informática
-12. Skils
-13. Hardware
-14. Software
-15.
+  1. Religión
+  2. Posición política
+4. Preferencias
+  1. Anime
+  2. Manga
+  3. Videojuegos
+  4. Musica
+5. Informática
+  1. Skils
+  2. Hardware
+  3. Software
+6.
