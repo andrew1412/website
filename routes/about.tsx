@@ -1,43 +1,54 @@
+import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
-
-import jsonProfile from "../profile/profile_about.json" assert { type: "json" };
+import jsonProfile from "../profile/profile_home.json" assert { type: "json" };
 import type Profile from "../profile/type.ts";
 
-import AvatarComponent from "../components/Avatar.tsx";
-import UsernameComponent from "../components/Username.tsx";
-import BioComponent from "../components/Bio.tsx";
-import LocationComponent from "../components/Location.tsx";
-import SocialLinksComponent from "../components/SocialLinks.tsx";
-import BannerComponent from "../components/Banner.tsx";
-import ReadmeButtonComponent from "../components/ReadmeButton.tsx";
+import { ArrowLeft } from "preact-feather";
+import fetchMarkdown from "../utils/markdown.ts";
+import { CSS, render } from "$gfm";
 
-export default function About() {
-  const profile: Profile = jsonProfile;
-  const {
-    avatar,
-    username,
-    bio,
-    location,
-    socialAccounts,
-    banner,
-    links,
-    readme,
-  } = profile;
+type HandlerProps = {
+  readmeText: string;
+};
 
+export const handler: Handlers<HandlerProps> = {
+  async GET(_, ctx) {
+    const profile: Profile = jsonProfile;
+    const { readme } = profile;
+
+    if (readme) {
+      const readmeText = await fetchMarkdown(readme);
+      return ctx.render({
+        readmeText,
+      });
+    } else {
+      return new Response("", {
+        status: 307,
+        headers: { Location: "/" },
+      });
+    }
+  },
+};
+
+export default function ReadmePage({ data }: PageProps<HandlerProps>) {
+  const { readmeText } = data;
   return (
     <>
       <Head>
-        <title>Andrew 1412 - Sobre mi</title>
+        <title>Sobre mi</title>
+        <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
-      <main class="w-10/12 sm:w-96 mx-auto">
-        <div class="flex flex-col w-full mt-12 mb-28">
-          <div class="flex flex-col items-center w-full w-full rounded-xl p-4">
-            <AvatarComponent avatar={avatar} />
-            <UsernameComponent username={username} />
-            <BioComponent bio={bio} />
-            {readme && <ReadmeButtonComponent />}
-          </div>
-        </div>
+      <a
+        class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 left-4"
+        href="/"
+      >
+        <ArrowLeft size={18} color="#1f2937" stroke-width={2.5} />
+      </a>
+      <main class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
+        <div
+          class="mt-8 markdown-body"
+          dangerouslySetInnerHTML={{ __html: render(readmeText) }}
+        />
       </main>
     </>
   );

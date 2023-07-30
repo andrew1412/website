@@ -23,6 +23,7 @@ export default function PostPage(props: PageProps<Post>) {
     <>
       <Head>
         <title>{post.title}</title>
+        <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
       <a
         class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 left-4"
@@ -30,9 +31,6 @@ export default function PostPage(props: PageProps<Post>) {
       >
         <ArrowLeft size={18} color="#1f2937" stroke-width={2.5} />
       </a>
-      <Head>
-        <style dangerouslySetInnerHTML={{ __html: CSS }} />
-      </Head>
       <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
         <div class="mx-auto max-w-screen-sm max-w-lg w-full mt-4 sm:mt-0">
           {post.coverHtml && <img src={post.coverHtml} alt={post.title} />}
