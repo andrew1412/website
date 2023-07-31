@@ -1,4 +1,4 @@
-<center> Sobre mi </center>
+<h1 class="align-center"> Sobre mi </h1>
 
 Hola (edad, cumpleaños)
 
