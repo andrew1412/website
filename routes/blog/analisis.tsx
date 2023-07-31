@@ -120,7 +120,16 @@ export default function Blog(props: PageProps<Post[]>) {
             </div>
           </div>
           <div class="mt-8">
-            {posts && posts.map((post) => <PostCard post={post} />)}
+            {posts.length > 0
+              ? posts.map((post) => <PostCard post={post} />)
+              : (
+                <div class="flex flex-col items-center space-y-1 py-8">
+                  <FileText size={32} color="#9ca3af" />
+                  <h2 class="text-sm font-bold text-gray-400 leading-tight mb-1">
+                    No hay publicaciones todavia.
+                  </h2>
+                </div>
+              )}
           </div>
         </div>
         <div class="flex flex-col items-center w-full w-full p-4">

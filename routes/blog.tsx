@@ -1,6 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { getPost, getPosts, getTests, Post } from "@/utils/posts.ts";
+import { getPost, getPosts, Post } from "@/utils/posts.ts";
 import Footer from "../components/BlogFooter.tsx";
 
 import jsonProfile from "../profile/profile_blog.json" assert { type: "json" };
@@ -14,6 +14,7 @@ import SocialLinksComponent from "../components/SocialLinks.tsx";
 import BannerComponent from "../components/Banner.tsx";
 import ReadmeButtonComponent from "../components/ReadmeButton.tsx";
 import Tags from "../components/Tags.tsx";
+import { FileText } from "preact-feather";
 
 export const handler: Handlers<Post[]> = {
   async GET(_req, ctx) {
@@ -115,7 +116,16 @@ export default function Blog(props: PageProps<Post[]>) {
             </div>
           </div>
           <div class="mt-8">
-            {posts.map((post) => <PostCard post={post} />)}
+            {posts.length > 0
+              ? posts.map((post) => <PostCard post={post} />)
+              : (
+                <div class="flex flex-col items-center space-y-1 py-8">
+                  <FileText size={32} color="#9ca3af" />
+                  <h2 class="text-sm font-bold text-gray-400 leading-tight mb-1">
+                    No hay publicaciones todavia.
+                  </h2>
+                </div>
+              )}
           </div>
         </div>
         <div class="flex flex-col items-center w-full w-full p-4">
