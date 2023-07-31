@@ -1,5 +1,3 @@
-<h1 style="text-align: center"> Sobre mi 🐈‍⬛ </h1>
-
 Hola (edad, cumpleaños)
 
 Porque me cree este blog
@@ -27,3 +25,31 @@ Soy un Vtuber que quiere compartir sus ideas en Internet.
 - Skils
 - Hardware
 - Software
+
+## ¿Por qué un gato?
+
+## ¿Por qué 1412?
+
+## Mis creencias
+
+### Religión
+
+### Posición política
+
+## Preferencias
+
+### Anime
+
+### Manga
+
+### Videojuegos
+
+### Musica
+
+### Informática
+
+#### Skils
+
+#### Hardware
+
+#### Software
