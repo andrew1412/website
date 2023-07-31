@@ -5,6 +5,7 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
 import fetchMarkdown from "@/utils/markdown.ts";
 import { CSS, render } from "$gfm";
+import { css, theme, tw } from "twind/css";
 
 import { ArrowLeft } from "preact-feather";
 
@@ -47,7 +48,7 @@ export default function AboutPage({ data }: PageProps<HandlerProps>) {
       </a>
       <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
         <div
-          class="mt-8 markdown-body"
+          class="mt-8 markdown-body prose prose-sm sm:prose lg:prose-lg"
           dangerouslySetInnerHTML={{ __html: render(readmeText) }}
         />
       </article>
