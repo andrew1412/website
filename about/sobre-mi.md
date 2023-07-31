@@ -1,6 +1,4 @@
----
-title: Sobre mi 🐈‍⬛
----
+# Sobre mi 🐈‍⬛
 
 Hola (edad, cumpleaños)
 

@@ -3,19 +3,25 @@ import type Profile from "../profile/type.ts";
 
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
-import { About, getAbout } from "@/utils/markdown.ts";
+import fetchMarkdown from "@/utils/markdown.ts";
 import { CSS, render } from "$gfm";
 
 import { ArrowLeft } from "preact-feather";
 
-export const handler: Handlers<About> = {
-  async GET(_req, ctx) {
+type HandlerProps = {
+  readmeText: string;
+};
+
+export const handler: Handlers<HandlerProps> = {
+  async GET(_, ctx) {
     const profile: Profile = jsonProfile;
     const { readme } = profile;
 
     if (readme) {
-      const about = await getAbout(readme);
-      return ctx.render(about as About);
+      const readmeText = await fetchMarkdown(readme);
+      return ctx.render({
+        readmeText,
+      });
     } else {
       return new Response("", {
         status: 307,
@@ -25,12 +31,12 @@ export const handler: Handlers<About> = {
   },
 };
 
-export default function AboutPage(props: PageProps<About>) {
-  const about = props.data;
+export default function AboutPage({ data }: PageProps<HandlerProps>) {
+  const { readmeText } = data;
   return (
     <>
       <Head>
-        <title>{about.title}</title>
+        <title>Sobre mi</title>
         <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
       <a
@@ -40,10 +46,9 @@ export default function AboutPage(props: PageProps<About>) {
         <ArrowLeft size={18} color="#1f2937" stroke-width={2.5} />
       </a>
       <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
-        <h1 class="mt-6 text-5xl font-bold">{about.title}</h1>
         <div
           class="mt-8 markdown-body"
-          dangerouslySetInnerHTML={{ __html: render(about.content) }}
+          dangerouslySetInnerHTML={{ __html: render(readmeText) }}
         />
       </article>
     </>
