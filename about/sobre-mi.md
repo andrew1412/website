@@ -1,4 +1,4 @@
-# Sobre mi 🐈‍⬛
+<h1 style="text-align: center"> Sobre mi 🐈‍⬛ </h1>
 
 Hola (edad, cumpleaños)
 
