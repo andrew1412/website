@@ -1,26 +1,21 @@
-import { Handlers, PageProps } from "$fresh/server.ts";
-import { Head } from "$fresh/runtime.ts";
 import jsonProfile from "../profile/profile_home.json" assert { type: "json" };
 import type Profile from "../profile/type.ts";
 
-import { ArrowLeft } from "preact-feather";
-import fetchMarkdown from "../utils/markdown.ts";
+import { Handlers, PageProps } from "$fresh/server.ts";
+import { Head } from "$fresh/runtime.ts";
+import { About, getAbout } from "@/utils/markdown.ts";
 import { CSS, render } from "$gfm";
 
-type HandlerProps = {
-  readmeText: string;
-};
+import { ArrowLeft } from "preact-feather";
 
-export const handler: Handlers<HandlerProps> = {
-  async GET(_, ctx) {
+export const handler: Handlers<About> = {
+  async GET(_req, ctx) {
     const profile: Profile = jsonProfile;
     const { readme } = profile;
 
     if (readme) {
-      const readmeText = await fetchMarkdown(readme);
-      return ctx.render({
-        readmeText,
-      });
+      const about = await getAbout(readme);
+      return ctx.render(about as About);
     } else {
       return new Response("", {
         status: 307,
@@ -30,12 +25,12 @@ export const handler: Handlers<HandlerProps> = {
   },
 };
 
-export default function ReadmePage({ data }: PageProps<HandlerProps>) {
-  const { readmeText } = data;
+export default function AboutPage(props: PageProps<About>) {
+  const about = props.data;
   return (
     <>
       <Head>
-        <title>Sobre mi</title>
+        <title>{about.title}</title>
         <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
       <a
@@ -44,12 +39,13 @@ export default function ReadmePage({ data }: PageProps<HandlerProps>) {
       >
         <ArrowLeft size={18} color="#1f2937" stroke-width={2.5} />
       </a>
-      <main class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
+      <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
+        <h1 class="mt-6 text-5xl font-bold">{about.title}</h1>
         <div
           class="mt-8 markdown-body"
-          dangerouslySetInnerHTML={{ __html: render(readmeText) }}
+          dangerouslySetInnerHTML={{ __html: render(about.content) }}
         />
-      </main>
+      </article>
     </>
   );
 }

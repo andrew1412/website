@@ -1,4 +1,6 @@
-<h1 class="align-center"> Sobre mi </h1>
+---
+title: Sobre mi 🐈‍⬛
+---
 
 Hola (edad, cumpleaños)
 
