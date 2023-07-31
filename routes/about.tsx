@@ -46,12 +46,34 @@ export default function AboutPage({ data }: PageProps<HandlerProps>) {
       >
         <ArrowLeft size={18} color="#1f2937" stroke-width={2.5} />
       </a>
-      <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
-        <div
-          class="mt-8 markdown-body prose prose-sm sm:prose lg:prose-lg"
-          dangerouslySetInnerHTML={{ __html: render(readmeText) }}
-        />
-      </article>
+      <main
+        dangerouslySetInnerHTML={{ __html: readmeText }}
+        class={`prose prose-sm sm:prose lg:prose-lg mx-auto pt-20 pb-12 px-6 ${
+          tw(css({
+            code: {
+              "&::before": { content: "none" },
+              "&::after": { content: "none" },
+              background: theme("colors.gray.200"),
+              padding: "3px 5px",
+              borderRadius: "6px",
+            },
+            a: {
+              color: theme("colors.blue.600"),
+              textDecoration: "none",
+              "&:hover": {
+                textDecoration: "underline",
+              },
+            },
+            ul: {
+              listStyle: "disc",
+              paddingInlineStart: "40px",
+              li: {
+                paddingLeft: "8px",
+              },
+            },
+          }))
+        }`}
+      />
     </>
   );
 }

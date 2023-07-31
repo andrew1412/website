@@ -1,7 +1,5 @@
 <h1 style="text-align: center"> Sobre mi 🐈‍⬛ </h1>
 
-<img src="https://github.com/andrew1412/website/blob/main/static/logos/pfp-1.png?raw=true" alt=test/>
-
 Hola (edad, cumpleaños)
 
 Porque me cree este blog
