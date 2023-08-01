@@ -1,7 +1,7 @@
 import { Moon, Sun } from "preact-feather";
 import { useEffect, useState } from "preact/hooks";
 
-function Changer1() {
+export default function Changer() {
   const [isDark, setIsDark] = useState(true);
   return (
     <>
@@ -32,7 +32,7 @@ function Changer1() {
   );
 }
 
-export default function Changer() {
+function Changer1() {
   const [isDark, setIsDark] = useState(() => {
     // Get the current theme from localStorage or default to 'light'
     const savedTheme = window.localStorage.getItem("theme");
