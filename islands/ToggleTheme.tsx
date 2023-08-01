@@ -45,8 +45,24 @@ export default function Changer() {
   }, [isDark]);
 
   return (
-    <button onClick={() => setIsDark(!isDark)}>
-      Toggle theme
-    </button>
+    <span className="cursor-pointer" onClick={() => setIsDark(!isDark)}>
+      {isDark
+        ? (
+          <Moon
+            size={18}
+            color="#1f2937"
+            stroke-width={2.5}
+            class="w-5 h-5 text-gray-500"
+          />
+        )
+        : (
+          <Sun
+            size={18}
+            color="#1f2937"
+            stroke-width={2.5}
+            class="w-5 h-5 text-gray-500"
+          />
+        )}
+    </span>
   );
 }
