@@ -15,6 +15,7 @@ import BannerComponent from "../components/Banner.tsx";
 import ReadmeButtonComponent from "../components/ReadmeButton.tsx";
 import Tags from "../components/Tags.tsx";
 import { FileText } from "preact-feather";
+import Changer from "../islands/ToggleTheme.tsx";
 
 export const handler: Handlers<Post[]> = {
   async GET(_req, ctx) {
@@ -43,6 +44,9 @@ export default function Blog(props: PageProps<Post[]>) {
       <Head>
         <title>Andrew 1412 - Blog</title>
       </Head>
+      <a class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 right-4">
+        <Changer />
+      </a>
       <main class="w-10/12 sm:w-96 mx-auto">
         <div class="flex flex-col w-full mt-12 mb-28">
           <div class="flex flex-col items-center w-full w-full rounded-xl p-4">

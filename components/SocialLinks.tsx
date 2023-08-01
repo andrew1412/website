@@ -9,6 +9,7 @@ import {
   Twitter,
   Youtube,
 } from "preact-feather";
+import { SiGithub, SiMaildotru, SiOdysee, SiYoutube } from "react-icons/si";
 import SocialLinkWrapper from "./SocialLinkWrapper.tsx";
 
 import type Profile from "../profile/type.ts";
@@ -21,15 +22,14 @@ export default function SocialLinks(
   const svgProps = {
     size: 18,
     color: "#1f2937",
-    "stroke-width": 2.5,
   };
 
   return (
     <div>
       <div class="flex justify-center mb-6 space-x-2">
-        {socialAccounts?.twitter && (
-          <SocialLinkWrapper href={socialAccounts.twitter}>
-            <Twitter {...svgProps} />
+        {socialAccounts?.odysee && (
+          <SocialLinkWrapper href={socialAccounts.odysee}>
+            <SiOdysee {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.instagram && (
@@ -39,7 +39,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.youtube && (
           <SocialLinkWrapper href={socialAccounts.youtube}>
-            <Youtube {...svgProps} />
+            <SiYoutube {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.linkedin && (
@@ -54,7 +54,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.github && (
           <SocialLinkWrapper href={socialAccounts.github}>
-            <Github {...svgProps} />
+            <SiGithub {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.dribbble && (
@@ -69,7 +69,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.mail && (
           <SocialLinkWrapper href={`mailto:${socialAccounts.mail}`}>
-            <Mail {...svgProps} />
+            <SiMaildotru {...svgProps} />
           </SocialLinkWrapper>
         )}
       </div>

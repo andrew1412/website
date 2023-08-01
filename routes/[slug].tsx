@@ -5,6 +5,7 @@ import { CSS, render } from "$gfm";
 import Tags from "../components/Tags.tsx";
 
 import { ArrowLeft } from "preact-feather";
+import Changer from "../islands/ToggleTheme.tsx";
 
 export const handler: Handlers<Post> = {
   async GET(_req, ctx) {
@@ -25,6 +26,9 @@ export default function PostPage(props: PageProps<Post>) {
         <title>{post.title}</title>
         <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
+      <a class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 right-4">
+        <Changer />
+      </a>
       <a
         class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 left-4"
         href="/blog"

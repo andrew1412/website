@@ -11,7 +11,7 @@ type Profile = {
     github?: string;
     instagram?: string;
     linkedin?: string;
-    twitter?: string;
+    odysee?: string;
     youtube?: string;
     website?: string;
     mail?: string;
