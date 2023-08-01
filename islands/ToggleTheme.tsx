@@ -42,8 +42,6 @@ export default function Changer() {
   // Use useEffect to update localStorage whenever the theme changes
   useEffect(() => {
     window.localStorage.setItem("theme", JSON.stringify(isDark));
-    // Also update the theme class on the body
-    document.body.className = isDark ? "dark" : "";
   }, [isDark]);
 
   return (
