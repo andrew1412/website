@@ -21,8 +21,8 @@ import * as $15 from "./routes/dibujos.tsx";
 import * as $16 from "./routes/feed.ts";
 import * as $17 from "./routes/fotos.tsx";
 import * as $18 from "./routes/index.tsx";
-import * as $$0 from "./islands/Tabs.tsx";
-import * as $$1 from "./islands/ToggleTheme.tsx";
+import * as $$0 from "./islands/ColorMode.tsx";
+import * as $$1 from "./islands/Tabs.tsx";
 
 const manifest = {
   routes: {
@@ -47,8 +47,8 @@ const manifest = {
     "./routes/index.tsx": $18,
   },
   islands: {
-    "./islands/Tabs.tsx": $$0,
-    "./islands/ToggleTheme.tsx": $$1,
+    "./islands/ColorMode.tsx": $$0,
+    "./islands/Tabs.tsx": $$1,
   },
   baseUrl: import.meta.url,
 };

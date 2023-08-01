@@ -15,7 +15,7 @@ import ProfileMisconfigComponent from "../components/ProfileMisconfig.tsx";
 import ReadmeButtonComponent from "../components/ReadmeButton_home.tsx";
 
 import fetchFeed from "../utils/rss.ts";
-import Changer from "../islands/ToggleTheme.tsx";
+import ColorMode from "../islands/ColorMode.tsx";
 
 type HandlerProps = {
   feed: {
@@ -90,7 +90,10 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
       <Head>
         <title>andrew 1412</title>
       </Head>
-      <main class="w-10/12 sm:w-96 mx-auto">
+      <a class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 right-4">
+        <ColorMode />
+      </a>
+      <body class="w-10/12 sm:w-96 mx-auto bg-slate-100 dark:(text-gray-50 bg-gray-900)">
         <div class="flex flex-col w-full mt-12 mb-28">
           <div class="flex flex-col items-center w-full w-full rounded-xl p-4">
             <AvatarComponent avatar={avatar} />
@@ -108,7 +111,7 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
             <TabsIsland links={links} feed={feed} />
           </div>
         </div>
-      </main>
+      </body>
     </html>
   );
 }

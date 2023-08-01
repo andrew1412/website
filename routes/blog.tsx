@@ -15,7 +15,6 @@ import BannerComponent from "../components/Banner.tsx";
 import ReadmeButtonComponent from "../components/ReadmeButton.tsx";
 import Tags from "../components/Tags.tsx";
 import { FileText } from "preact-feather";
-import Changer from "../islands/ToggleTheme.tsx";
 
 export const handler: Handlers<Post[]> = {
   async GET(_req, ctx) {

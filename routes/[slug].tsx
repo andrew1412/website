@@ -5,7 +5,6 @@ import { CSS, render } from "$gfm";
 import Tags from "../components/Tags.tsx";
 
 import { ArrowLeft } from "preact-feather";
-import Changer from "../islands/ToggleTheme.tsx";
 
 export const handler: Handlers<Post> = {
   async GET(_req, ctx) {
