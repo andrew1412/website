@@ -46,19 +46,6 @@ export default function Changer() {
     document.body.className = isDark ? "dark" : "";
   }, [isDark]);
 
-  useEffect(() => {
-    // Fetch the CSS file content
-    fetch("../utils/theme.css")
-      .then((response) => response.text())
-      .then((css) => {
-        // Create a new style element
-        const style = document.createElement("style");
-        style.textContent = css;
-        // Append the style element to the head
-        document.head.append(style);
-      });
-  }, []);
-
   return (
     <button onClick={() => setIsDark(!isDark)}>
       Toggle theme
