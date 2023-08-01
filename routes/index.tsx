@@ -90,9 +90,6 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
       <Head>
         <title>andrew 1412</title>
       </Head>
-      <a class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 right-4">
-        <Changer />
-      </a>
       <main class="w-10/12 sm:w-96 mx-auto">
         <div class="flex flex-col w-full mt-12 mb-28">
           <div class="flex flex-col items-center w-full w-full rounded-xl p-4">

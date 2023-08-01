@@ -34,41 +34,10 @@ export default function Changer() {
               class="w-5 h-5 text-gray-500"
             />
           )}
+        <a class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 right-4">
+          <Changer />
+        </a>
       </span>
     </>
-  );
-}
-
-function Changer1() {
-  const [isDark, setIsDark] = useState(() => {
-    // Get the current theme from localStorage or default to 'light'
-    const savedTheme = window.localStorage.getItem("theme");
-    return savedTheme ? JSON.parse(savedTheme) : false;
-  });
-
-  // Use useEffect to update localStorage whenever the theme changes
-  useEffect(() => {
-    window.localStorage.setItem("theme", JSON.stringify(isDark));
-    // Also update the theme class on the body
-    document.body.className = isDark ? "dark" : "";
-  }, [isDark]);
-
-  useEffect(() => {
-    // Fetch the CSS file content
-    fetch("../utils/style.css")
-      .then((response) => response.text())
-      .then((css) => {
-        // Create a new style element
-        const style = document.createElement("style");
-        style.textContent = css;
-        // Append the style element to the head
-        document.head.append(style);
-      });
-  }, []);
-
-  return (
-    <button onClick={() => setIsDark(!isDark)}>
-      Toggle theme
-    </button>
   );
 }
