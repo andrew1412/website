@@ -90,8 +90,7 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
       <Head>
         <title>andrew 1412</title>
       </Head>
-
-      <a class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 right-4">
+      <a id="hide" class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 right-4">
         <ColorMode />
       </a>
       <body class="w-10/12 sm:w-96 mx-auto bg-purple dark:(text-gray-50 bg-gray-900)">
