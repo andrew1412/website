@@ -3,9 +3,6 @@ import { useEffect } from "preact/hooks";
 import { useSignal } from "@preact/signals";
 
 const modes = ["dark", "light"] as const;
-const angles = ["rotate-0", "rotate-[120deg]", "-rotate-[120deg]"];
-const opacities = ["opacity-100", "opacity-0", "opacity-0"];
-const icons = [Moon, Sun];
 
 export default function ColorMode() {
   const state = useSignal<(typeof modes)[number]>("dark");

@@ -5,12 +5,15 @@ export default {
   darkMode: "class",
   selfURL: import.meta.url,
   theme: {
-    extend: {
-      colors: {
-        gray: colors.blueGray,
-        teal: colors.teal,
-        cyan: colors.cyan,
-      },
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      emerald: colors.emerald,
+      indigo: colors.indigo,
+      yellow: colors.yellow,
     },
   },
 } as Options;
