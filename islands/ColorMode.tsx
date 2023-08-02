@@ -9,9 +9,7 @@ export default function ColorMode() {
 
   function detectMode() {
     if (
-      localStorage.colorMode === "dark" ||
-      (!("colorMode" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
+      localStorage.colorMode === "dark"
     ) {
       document.documentElement.classList.add("dark");
       state.value = "dark";
@@ -29,9 +27,7 @@ export default function ColorMode() {
       localStorage.colorMode = state.value;
     }
     if (
-      localStorage.colorMode === "dark" ||
-      (!("colorMode" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
+      localStorage.colorMode === "dark"
     ) {
       document.documentElement.classList.add("dark");
     } else {

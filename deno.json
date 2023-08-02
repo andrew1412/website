@@ -35,7 +35,8 @@
     "$gfm": "https://deno.land/x/gfm@0.1.26/mod.ts",
     "feed": "https://esm.sh/feed@4.2.2",
     "html": "https://deno.land/x/htm@0.2.0/mod.ts",
-    "ColorScheme": "https://deno.land/x/htm@0.2.0/plugins/color-scheme.ts"
+    "ColorScheme": "https://deno.land/x/htm@0.2.0/plugins/color-scheme.ts",
+    "preact-scroll-header": "https://unpkg.com/preact-scroll-header@1.0.0/dist/preact-scroll-header.min.js"
   },
   "compilerOptions": {
     "jsx": "react-jsx",

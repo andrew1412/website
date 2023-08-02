@@ -1,8 +1,6 @@
 import { useState } from "preact/hooks";
-
 import LinkComponent from "../components/Links.tsx";
 import FeedEntryComponent from "../components/Feed.tsx";
-
 import { FileText, List } from "preact-feather";
 
 const options: Intl.DateTimeFormatOptions = {
