@@ -40,9 +40,6 @@ export default function AboutPage({ data }: PageProps<HandlerProps>) {
         <title>Sobre mi</title>
         <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
-      <a class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 right-4">
-        <ColorMode />
-      </a>
       <a
         class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 left-4"
         href="/"

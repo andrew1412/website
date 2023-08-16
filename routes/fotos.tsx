@@ -27,7 +27,7 @@ export default function Fotos() {
   return (
     <>
       <Head>
-        <title>Andrew 1412 - Fotos</title>
+        <title>Fotos</title>
       </Head>
       <main class="w-10/12 sm:w-96 mx-auto">
         <div class="flex flex-col w-full mt-12 mb-28">
