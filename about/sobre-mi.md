@@ -4,6 +4,13 @@ Porque me cree este blog
 
 Soy un Vtuber que quiere compartir sus ideas en Internet.
 
+#### Table of Contents
+
+- [Underline](#underline)
+- [Indent](#indent)
+- [Center](#center)
+- [Color](#color)
+
 # Tabla de contenidos
 
 1. [¿Por qué un gato?](#¿por-qué-un-gato?)
