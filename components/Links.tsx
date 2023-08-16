@@ -1,4 +1,4 @@
-import { Link } from "preact-feather";
+import { ChevronRight, Link } from "preact-feather";
 
 export default function Links(
   props: { link: { url: string; title: string } },
@@ -13,7 +13,7 @@ export default function Links(
         rel="noopener noreferrer"
       >
         <span>{link.title}</span>
-        <Link size={18} />
+        <ChevronRight size={18} />
       </a>
     </li>
   );

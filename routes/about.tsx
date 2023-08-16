@@ -49,12 +49,12 @@ export default function AboutPage({ data }: PageProps<HandlerProps>) {
       >
         <ArrowLeft size={18} color="#1f2937" stroke-width={2.5} />
       </a>
-      <body class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto dark:(text-gray-50 bg-gray-900)">
+      <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto dark:(text-gray-50 bg-gray-900)">
         <div
           class="mt-8 markdown-body dark:(text-gray-50 bg-gray-900)"
           dangerouslySetInnerHTML={{ __html: render(readmeText) }}
         />
-      </body>
+      </article>
     </>
   );
 }
