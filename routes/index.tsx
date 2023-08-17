@@ -55,36 +55,6 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
   } = profile;
   const { feed } = data;
 
-  // validate profile configuration
-  if (!avatar) {
-    return (
-      <ProfileMisconfigComponent>
-        Property <i>avatar</i> can't be empty.
-      </ProfileMisconfigComponent>
-    );
-  }
-  if (!username) {
-    return (
-      <ProfileMisconfigComponent>
-        Property <i>username</i> can't be empty.
-      </ProfileMisconfigComponent>
-    );
-  }
-  if (!bio) {
-    return (
-      <ProfileMisconfigComponent>
-        Property <i>bio</i> can't be empty.
-      </ProfileMisconfigComponent>
-    );
-  }
-  if (links.length === 0) {
-    return (
-      <ProfileMisconfigComponent>
-        Property <i>links</i> can't be of length zero.
-      </ProfileMisconfigComponent>
-    );
-  }
-
   return (
     <>
       <Head>
