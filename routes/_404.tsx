@@ -24,7 +24,7 @@ export default function Error404() {
   return (
     <>
       <Head>
-        <title>404 - Pagina no encontrada</title>
+        <title>Error 404 | Pagina no encontrada</title>
       </Head>
       <main class="w-10/12 sm:w-96 mx-auto">
         <div class="flex flex-col w-full mt-12 mb-28">
