@@ -1,13 +1,4 @@
-# Contenidos
-
-- ¿Quien soy?
-- ¿Por qué un gato?
-- ¿Por qué 1412?
-- Mis creencias
-- Mis gustos
-- Informática
-
-## ¿Quien soy?
+# ¿Quien soy?
 
 Soy Andrew, un Vtuber que quiere compartir sus ideas en Internet. Todo comenzó
 un 14 de marzo del año 2001 cuando fui concebido en este mundo, en un periodo de
@@ -26,7 +17,7 @@ y mi canal de YouTube, aunque no se cuanto dure antes de que cierren este sitio
 o mi canal en nombre de un supuesto bien comun, pero mientras exista, aquí
 estaré.
 
-## ¿Por qué un gato?
+# ¿Por qué un gato?
 
 El gato ha sido mi animal favorito durante años y siento que los gatos son mas
 humanos que los perros, un perro es como tu esclavo, hace lo que tu le digas que
@@ -39,15 +30,15 @@ están como solitarios, se tiende a tener la apreciación de que los gatos está
 siempre tristes, con una mirada reflexiva, faltos de cariño, pero por dentro
 siempre quieren que alguien les haga cariño y se preocupe por ellos.
 
-## ¿Por qué 1412?
+# ¿Por qué 1412?
 
-## Mis creencias
+# Mis creencias
 
 ### Religión
 
 ### Política
 
-## Mis gustos
+# Mis gustos
 
 ### Anime
 
@@ -57,7 +48,7 @@ siempre quieren que alguien les haga cariño y se preocupe por ellos.
 
 ### Música
 
-## Informática
+# Informática
 
 ### Mi setup
 
