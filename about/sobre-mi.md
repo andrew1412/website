@@ -1,18 +1,13 @@
 # Tabla de contenidos
 
+- [¿Quien soy?](#quien-soy)
 - [¿Por qué un gato?](#por-qué-un-gato)
 - [¿Por qué 1412?](#por-qué-1412)
 - [Mis creencias](#mis-creencias)
-  - Religion
-  - Politica
 - [Gustos](#gustos)
-  - Anime
-  - Manga
-  - Videojuegos
-  - Musica
 - [Informatica](#informatica)
-  - Mi setup
-  - Skills
+
+## ¿Quien soy?
 
 ## ¿Por qué un gato?
 
@@ -20,6 +15,21 @@
 
 ## Mis creencias
 
+### Religion
+
+### Politica
+
 ## Gustos
 
+### Anime
+
+### Manga
+
+### Videojuegos
+
+### Musica
+
 ## Informatica
+
+### Mi setup
+### Skills
