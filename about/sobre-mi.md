@@ -4,7 +4,7 @@
 - [¿Por qué un gato?](#por-qué-un-gato)
 - [¿Por qué 1412?](#por-qué-1412)
 - [Mis creencias](#mis-creencias)
-- [Gustos](#gustos)
+- [Mis gustos](#mis-gustos)
 - [Informatica](#informatica)
 
 ## ¿Quien soy?
@@ -19,7 +19,7 @@
 
 ### Politica
 
-## Gustos
+## Mis gustos
 
 ### Anime
 
