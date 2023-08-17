@@ -90,7 +90,7 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
       <Head>
         <title>Andrew 1412</title>
       </Head>
-      <main class="w-10/12 sm:w-96 mx-auto bg-purple dark:(text-gray-50 bg-gray-900)">
+      <main class="w-10/12 sm:w-96 mx-auto bg-purple">
         <div class="flex flex-col w-full mt-12 mb-28">
           <div class="flex flex-col items-center w-full w-full rounded-xl p-4">
             <AvatarComponent avatar={avatar} />
