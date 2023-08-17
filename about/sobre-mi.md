@@ -1,4 +1,4 @@
-#### Tabla de contenidos
+# Contenidos
 
 - ¿Quien soy?
 - ¿Por qué un gato?
