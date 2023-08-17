@@ -89,6 +89,10 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
     <>
       <Head>
         <title>Andrew 1412</title>
+        <meta
+          name="description"
+          content="Sitio Web y Blog personal de Andrew1412, un Vtuber que quiere compartir sus ideas en internet. Links a YouTube, Odysee y Github de Andrew 1412 en un solo lugar"
+        />
       </Head>
       <main class="w-10/12 sm:w-96 mx-auto bg-purple">
         <div class="flex flex-col w-full mt-12 mb-28">
