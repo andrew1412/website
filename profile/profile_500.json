@@ -1,6 +1,6 @@
 {
   "$schema": "schema.json",
-  "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg",
+  "avatar": "https://github.com/andrew1412/website/raw/main/static/logos/pfp-8.webp",
   "username": "500",
   "links": [
     { "url": "https://example.com", "title": "Blog" },
