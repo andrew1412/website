@@ -15,7 +15,6 @@ import ProfileMisconfigComponent from "../components/ProfileMisconfig.tsx";
 import ReadmeButtonComponent from "../components/ReadmeButton_home.tsx";
 
 import fetchFeed from "../utils/rss.ts";
-import ColorMode from "../islands/ColorMode.tsx";
 
 type HandlerProps = {
   feed: {
@@ -54,6 +53,36 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
     readme,
   } = profile;
   const { feed } = data;
+
+  // validate profile configuration
+  if (!avatar) {
+    return (
+      <ProfileMisconfigComponent>
+        Property <i>avatar</i> can't be empty.
+      </ProfileMisconfigComponent>
+    );
+  }
+  if (!username) {
+    return (
+      <ProfileMisconfigComponent>
+        Property <i>username</i> can't be empty.
+      </ProfileMisconfigComponent>
+    );
+  }
+  if (!bio) {
+    return (
+      <ProfileMisconfigComponent>
+        Property <i>bio</i> can't be empty.
+      </ProfileMisconfigComponent>
+    );
+  }
+  if (links.length === 0) {
+    return (
+      <ProfileMisconfigComponent>
+        Property <i>links</i> can't be of length zero.
+      </ProfileMisconfigComponent>
+    );
+  }
 
   return (
     <>

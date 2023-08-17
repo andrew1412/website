@@ -7,7 +7,6 @@ import fetchMarkdown from "@/utils/markdown.ts";
 import { CSS, render } from "$gfm";
 
 import { ArrowLeft } from "preact-feather";
-import ColorMode from "../islands/ColorMode.tsx";
 
 type HandlerProps = {
   readmeText: string;
