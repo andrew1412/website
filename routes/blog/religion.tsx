@@ -45,7 +45,7 @@ export default function Blog(props: PageProps<Post[]>) {
   return (
     <>
       <Head>
-        <title>Andrew 1412 - Blog</title>
+        <title>Blog - Andrew 1412</title>
       </Head>
       <main class="w-10/12 sm:w-96 mx-auto">
         <div class="flex flex-col w-full mt-12 mb-28">
