@@ -23,7 +23,8 @@ Siempre me ha gustado llevar al plano material mis ideas y pensamientos, ya sea
 en palabras o expresiones mas abstractas como el arte, aunque no suelo dedicarle
 tanto tiempo a ello como me gustaría, por esa razón decidí crear este sitio web
 y mi canal de YouTube, aunque no se cuanto dure antes de que cierren este sitio
-en nombre del bien común, pero mientras exista, aquí estaré.
+o mi canal en nombre de un supuesto bien comun, pero mientras exista, aquí
+estaré.
 
 ## ¿Por qué un gato?
 
