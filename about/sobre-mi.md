@@ -1,11 +1,11 @@
-# Contenidos
+# Contenidos 
 
 - ¿Quien soy?
 - ¿Por qué un gato?
 - ¿Por qué 1412?
 - Mis creencias
 - Mis gustos
-- Informatica
+- Informática
 
 ## ¿Quien soy?
 
@@ -15,9 +15,9 @@
 
 ## Mis creencias
 
-### Religion
+### Religión
 
-### Politica
+### Política
 
 ## Mis gustos
 
@@ -27,9 +27,9 @@
 
 ### Videojuegos
 
-### Musica
+### Música
 
-## Informatica
+## Informática
 
 ### Mi setup
 
