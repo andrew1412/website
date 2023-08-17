@@ -90,8 +90,10 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
       <Head>
         <title>Andrew 1412</title>
         <meta
-          name="description google-site-verification"
-          content="Sitio Web y Blog personal de Andrew1412, un Vtuber que quiere compartir sus ideas en internet. Links a YouTube, Odysee y Github de Andrew 1412. BZH8oAt6LpT9NHNi4Ply4HPcfHCHDPskVp2XA6eTJRw"
+          name="google-site-verification"
+          //description
+          content="BZH8oAt6LpT9NHNi4Ply4HPcfHCHDPskVp2XA6eTJRw"
+          //Sitio Web y Blog personal de Andrew1412, un Vtuber que quiere compartir sus ideas en internet. Links a YouTube, Odysee y Github de Andrew 1412.
         />
       </Head>
       <main class="w-10/12 sm:w-96 mx-auto bg-purple">
