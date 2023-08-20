@@ -47,7 +47,7 @@ que pasare a enumerar algunos principio básicos que constituyen mi fe.
 
 - Creo en la existencia de un creador que ha hecho todas las cosas, el cual es
   uno, único, incorpóreo, indivisible, inmutable y ningún ojo le ha visto ni le
-  podrá ver jamas. `"Shema Israel Adonai eloheinu Adonai ejad"`
+  podrá ver jamas. "Shema Israel Adonai eloheinu Adonai ejad"
 
 - Respecto de Yeshua, me distancio de cualquier enfoque cristiano y/o mesiánico,
   puesto que Yeshua es totalmente Judío, es decir, es un ser humano de carne y
