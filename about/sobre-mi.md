@@ -6,9 +6,9 @@ la historia donde pensar por ti mismo, no seguir a la mayoría y cuestionar lo
 socialmente aceptado como correcto es visto como un crimen de odio digno de
 censura y ostracismo. En un comienzo enmudecí tratando de encajar y no ser
 rechazado por los que creía eran mis pares, pero finalmente acepte la realidad
-que ya conocía. Y si he de estar solo mientras soy menospreciado por aquellos
+que ya conocía. Dire lo que pienso aun estando rodeado por aquellos
 que se ríen con el fin de desacreditar algo como si aquello fuera una muestra de
-madurez, así sera.
+madurez.
 
 Siempre me ha gustado llevar al plano material mis ideas y pensamientos, ya sea
 en palabras o expresiones mas abstractas como el arte, aunque no suelo dedicarle
@@ -39,7 +39,7 @@ categorias
 
 ### Religión
 
-Soy un Judío Nazareno, es decir, un Judío creyente en Yeshua como el Mesías
+Soy un Judío Nazareno, esto es, un Judío creyente en Yeshua como el Mesías
 prometido a Israel como el hijo de David, que cumple con todas las credenciales
 de ser declarado Mashiaj y espero su retorno a establecer el reinado Davídico en
 Israel y el mundo. Pero esto por si solo levanta mas dudas que respuestas, así
@@ -55,7 +55,7 @@ que pasare a enumerar algunos principio básicos que constituyen mi fe.
   mediante un milagro. No otorgándole ningún ápice de divinidad a su persona,
   por ende, no preexistió, ni fue el agente creador, ni obtuvo divinidad al ser
   resucitado, ni es consustancial al Padre. El es Judío, fiel completamente a la
-  observancia de la Torah, dando eso sí, su vida para la redención de Israel y
+  observancia de la Torah, eso sí, no habiendo cometido ningun pecado a pesar de su inclinacion al mal y dando su vida para la redención de Israel y
   el mundo en su rol de Mashiaj ben Yosef.
 
 - Acepto como textos sagrados el Tanaj y la Brit Jadashah, en su conjunto
