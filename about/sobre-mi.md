@@ -31,9 +31,31 @@ siempre quieren que alguien les haga cariño y se preocupe por ellos.
 
 # ¿Por qué 1412?
 
+El "1412" a sido parte de mi nickname por ya mas de 10 años y a diferencia de lo
+que muchos piensan, no es un numero aleatorio puesto porque el nombre "Andrew"
+ya haya estado en uso. Uno de los primeros animes que vi durante mi infancia de
+forma consciente y episodica fue Detective Conan, en el cual hay un personaje
+llamado Kito Kid, el cual usaba el código "1412" a modo de cifrado de su
+seudónimo "KID", siendo el primer 1 y la mitad del 4 una K, la segunda mitad del
+4 una I y el segundo 1 mas el 2 una D. Esta forma de escribir en código usando
+números me parecía genial a mis 11 años, así que decidí adoptar el "1412" como
+parte de mi nickname formando así "Andrew1412", de esta forma la gente no sabría
+lo que quiere decir pero otros fans de Detective Conan si se darían cuenta.
+
+Actualmente no sigo ni voy al día con Detective Conan, pero el "1412" lo he
+usado durante tanto tiempo que para mi ya se ha convertido en algo totalmente
+personal, aunque su significado ya no me represente, por esta razón he tratado
+de darle a ese "1412" algún otro significado que si lo haga. En el alfabeto
+Hebreo, cada letra tiene un valor numérico, por ende cada palabra puede ser
+representada con números, 14 es el valor numérico de David, del cual desciende
+el mesías, 12 son las tribus de Israel, 26 es el valor numérico del nombre
+sagrado de Elohim y 14+12 da 26. Entonces 1412 significa "Esta dentro del plan
+de Elohim que sea Yeshua el Mashiaj quien reúna a las 12 tribus de Israel"
+
 # Mis creencias
 
-Podríamos resumir mis creencias y valores personales bajo las dos siguientes categorías
+Podríamos resumir mis creencias y valores personales bajo las dos siguientes
+categorías
 
 ### Religión
 
