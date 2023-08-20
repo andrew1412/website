@@ -6,9 +6,8 @@ la historia donde pensar por ti mismo, no seguir a la mayoría y cuestionar lo
 socialmente aceptado como correcto es visto como un crimen de odio digno de
 censura y ostracismo. En un comienzo enmudecí tratando de encajar y no ser
 rechazado por los que creía eran mis pares, pero finalmente acepte la realidad
-que ya conocía. Dire lo que pienso aun estando rodeado por aquellos
-que se ríen con el fin de desacreditar algo como si aquello fuera una muestra de
-madurez.
+que ya conocía. Diré lo que pienso aun estando rodeado por aquellos que se ríen
+con el fin de desacreditar algo como si aquello fuera una muestra de madurez.
 
 Siempre me ha gustado llevar al plano material mis ideas y pensamientos, ya sea
 en palabras o expresiones mas abstractas como el arte, aunque no suelo dedicarle
@@ -55,10 +54,11 @@ que pasare a enumerar algunos principio básicos que constituyen mi fe.
   mediante un milagro. No otorgándole ningún ápice de divinidad a su persona,
   por ende, no preexistió, ni fue el agente creador, ni obtuvo divinidad al ser
   resucitado, ni es consustancial al Padre. El es Judío, fiel completamente a la
-  observancia de la Torah, eso sí, no habiendo cometido ningun pecado a pesar de su inclinacion al mal y dando su vida para la redención de Israel y
-  el mundo en su rol de Mashiaj ben Yosef.
+  observancia de la Torah, eso sí, no habiendo cometido ningún pecado a pesar de
+  su inclinación al mal y dando su vida para la redención de Israel y el mundo
+  en su rol de Mashiaj ben Yosef.
 
-- Acepto como textos sagrados el Tanaj y la Brit Jadashah, en su conjunto
+- Acepto como textos sagrados el Tanaj y la Brit Jadasha, en su conjunto
   conocida como Biblia, la cual es toda dada a Israel, enfoque en que debe ser
   entendida. Acojo algunas costumbres y tradiciones de la Halajá propias de
   Israel, pero no de forma incondicional, sino más bien siendo todo cotejado y
@@ -67,7 +67,7 @@ que pasare a enumerar algunos principio básicos que constituyen mi fe.
 
 - Acerca de la observancia, procuro llevar una vida conforme a las enseñanzas
   que se presenta en la Torah de Moshe, tales como el cuidado del Shabat, dieta
-  Kosher, las fiestas Biblicas, etc. Tal y como Yeshua hizo y enseñó a hacer a
+  Kosher, las fiestas Bíblicas, etc. Tal y como Yeshua hizo y enseñó a hacer a
   sus discípulos.
 
 ### Política
