@@ -33,8 +33,7 @@ siempre quieren que alguien les haga cariño y se preocupe por ellos.
 
 # Mis creencias
 
-podriamos resumir mis creencias y valores personales bajo las dos siguientes
-categorias
+Podríamos resumir mis creencias y valores personales bajo las dos siguientes categorías
 
 ### Religión
 
