@@ -45,12 +45,13 @@ lo que quiere decir pero otros fans de Detective Conan si se darían cuenta.
 Actualmente no sigo ni voy al día con Detective Conan, pero el "1412" lo he
 usado durante tanto tiempo que para mi ya se ha convertido en algo totalmente
 personal, aunque su significado ya no me represente, por esta razón he tratado
-de darle a ese "1412" algún otro significado que si lo haga. En el alfabeto
-Hebreo, cada letra tiene un valor numérico, por ende cada palabra puede ser
-representada con números, 14 es el valor numérico de David, del cual desciende
-el mesías, 12 son las tribus de Israel, 26 es el valor numérico del nombre
-sagrado de Elohim y 14+12 da 26. Entonces 1412 significa "Esta dentro del plan
-de Elohim que sea Yeshua el Mashiaj quien reúna a las 12 tribus de Israel"
+de darle a ese "1412" algún otro significado que si represente de alguna forma
+lo que pienso o mis creencias. En el alfabeto Hebreo, cada letra tiene un valor
+numérico, por ende cada palabra puede ser representada con números, 14 es el
+valor numérico de David, del cual desciende el mesías, 12 son las tribus de
+Israel, 26 es el valor numérico del nombre sagrado de Elohim y 14+12 da 26.
+Entonces 1412 significa "Esta dentro del plan de Elohim que sea Yeshua el
+Mashiaj quien reúna a las 12 tribus de Israel"
 
 # Mis creencias
 
