@@ -146,7 +146,7 @@ de escribir esto:
 - Look Back
 - Solanin
 
-### Video Juegos
+### Vídeo Juegos
 
 Como la mayor parte de mi vida no he tenido muchos amigos y los pocos que he
 tenido no han durado mucho, lo que mas he jugado han sido experiencias single
@@ -167,6 +167,60 @@ que no tiene sentido estar repitiendo el nombre de un mismo juego todo el rato:
 
 # Informática
 
-### Mi setup
+Desde pequeño siempre me ha gustado trastear con computadoras, me parecía súper
+intrigante como era posible que al mover el mouse se moviera la flechita de la
+pantalla o como era que el computador funcionaba.
 
-### Skills
+Mi primer celular lo tuve a mis 12 años y venia con Android 4.4, pasado unos
+meses me tope con que había salido Android 5.0 y mi celular no se había
+actualizado, así que frente a la impaciencia de querer probar esa ultima
+actualización lo antes posible, aprendí a instalar custom roms e instale
+CyanogenMod, desde ese momento en adelante cada celular que he tenido ha pasado
+por distintas custom roms.
+
+Un año después aprendí a instalar un sistema operativo desde la BIOS y comencé a
+usar Linux, en un principio era porque el computador que tenia era antiguo y se
+pegaba todo, así que una de las primeras distribuciones de Linux que use fue
+Lubuntu, luego tuve un Notebook y lo primero que hice fue instalarle Ubuntu y
+comencé a probar distintas distribuciones. Por aquel entonces cree dos vídeo
+juegos, uno era una copia del Metal Slug y el otro era un shooter visto desde
+arriba donde el jugador y los enemigos eran círculos de colores, todavía devén
+estar por ahí acumulando polvo en algún USB.
+
+No se en que momento fue ni como paso, pero en algún punto me empece a interesar
+por la cyber seguridad y privacidad de mis datos en Internet. Pero cuando tuve
+por fin mi propio Pc de escritorio y con la intención de jugar distintos vídeo
+juegos, instale Windows 10 y me relaje al punto de llegar usar Google Chrome y
+guardar contraseñas en el navegador, cosa que nunca había hecho y nadie debería
+hacer.
+
+Pasaron los años y me olvide de casi todo, salvo por ser consiente de la
+existencia de algo llamado privacidad digital, el problema era que ahora estaba
+metido hasta el cuello en el ecosistema de Google y Microsoft. Era como andar
+con una astilla clavada todo el tiempo recordándome de que debía hacer algo al
+respecto, pero dejar de usar los software que usaba, buscar alternativas y
+migrar todo era una tarea monumental, o al menos eso creía, hasta que un día
+dije basta y comencé poco a poco un proceso de de-google-izacion que tardaría 6
+meses.
+
+Al momento de escribir esto llevo un año usando Linux en mi Pc, GraphenOS en mi
+celular y solo software libre siempre que se pueda, habiendo eliminado mis redes
+sociales y cuentas de Google, solo dejando la que utilizo para mi canal de
+YouTube, la cual solo la uso para subir vídeos y nada mas.
+
+### Mi Setup
+
+Si estas interesado en saber cual es mi setup y los programas que uso, puedes
+encontrarlo todo en mi Github
+[aqui](https://github.com/andrew1412/lain-catppuccin-dotfiles). En cuanto a
+hardware:
+
+Pc:
+
+- CPU: Intel Core i5 9600K
+- GPU: Nvidia GTX 1060 6Gb
+- Ram: 16Gb
+
+Celular:
+
+- Pixel 4a
