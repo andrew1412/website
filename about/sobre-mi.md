@@ -96,11 +96,72 @@ que pasare a enumerar algunos principio básicos que constituyen mi fe.
 
 # Mis gustos
 
+Ninguno de los tops que haga estarán hechos considerando algún orden en
+particular, como de mayor a menor o algo por el estilo, simplemente los estaré
+mencionando
+
 ### Anime
+
+Principalmente me gusta ver Seinens que aborden temas complejos y Moe para
+relajarme un rato y alegrarme el día, aunque igual veo uno que otro Shonen de
+vez en cuando a pesar de no ser un genero de mi agrado. Ahora, si tuviera que
+hacer un top de favoritos se vería así:
+
+- Serial Experiments Lain
+- Evangelion
+- Made in Abyss
+- Steins Gate
+- Vinland Saga
+- Bocchi the Rock
+- Ichigo Mashimaro
+- Nichijou
+- Psycho Pass
+- Cowboy Bebop
+- Lucky Star
+- Haibane Renmei
+- Madoka
+- Shoujo Shuumatsu Riokou
+- Welcome to NHK
+- Kino no Tabi
+- Non Non Biyori
 
 ### Manga
 
+En cuanto a mangas la cosa no cambia mucho respectó de mis preferencias en
+anime, pero si suelo ser mas exigente, si el dibujo no me gusta o la historia se
+pone aburrida lo dejo rápidamente. Debo admitir si que soy fan de las obras de
+Inio Asano y Tatsuki Fujimoto, así que el top va a tener varias obras suyas. Me
+voy a limitar a listar solo mangas que no tengan adaptación a anime al momento
+de escribir esto:
+
+- Oyasumi Punpun
+- Gunnm (Battle Angel: Alita)
+- Shimeji Simulation
+- The Horizon
+- Takopi no Genzai
+- Fire Punsh
+- Reiraku
+- Aku no Hana
+- Dead Dead Demons Dededededestruction
+- Look Back
+- Solanin
+
 ### Videojuegos
+
+Como la mayor parte de mi vida no he tenido muchos amigos y los pocos que he
+tenido no han durado mucho, lo que mas he jugado han sido experiencias single
+player, y la verdad no creo poder considerar a un juego multi player como
+favorito, en cuanto a las sagas, nombrare al que mas me gusta de cada una, ya
+que no tiene sentido estar repitiendo el nombre de un mismo juego todo el rato:
+
+- Half Life 2 episodio 2
+- Another Metroid 2 Remake
+- Terraria
+- Katana Zero
+- Tunic
+- Starbound
+- Metro 2033
+- Doom 2
 
 ### Música
 
