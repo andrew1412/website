@@ -35,7 +35,7 @@ El "1412" a sido parte de mi nickname por ya mas de 10 años y a diferencia de l
 que muchos piensan, no es un numero aleatorio puesto porque el nombre "Andrew"
 ya haya estado en uso. Uno de los primeros animes que vi durante mi infancia de
 forma consciente y episodica fue Detective Conan, en el cual hay un personaje
-llamado Kito Kid, el cual usaba el código "1412" a modo de cifrado de su
+llamado Kito Kid, que usaba el código "1412" a modo de cifrado de su
 seudónimo "KID", siendo el primer 1 y la mitad del 4 una K, la segunda mitad del
 4 una I y el segundo 1 mas el 2 una D. Esta forma de escribir en código usando
 números me parecía genial a mis 11 años, así que decidí adoptar el "1412" como
