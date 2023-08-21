@@ -146,7 +146,7 @@ de escribir esto:
 - Look Back
 - Solanin
 
-### Videojuegos
+### Video Juegos
 
 Como la mayor parte de mi vida no he tenido muchos amigos y los pocos que he
 tenido no han durado mucho, lo que mas he jugado han sido experiencias single
