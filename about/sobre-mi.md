@@ -77,8 +77,8 @@ que pasare a enumerar algunos principio básicos que constituyen mi fe.
   por ende, no preexistió, ni fue el agente creador, ni obtuvo divinidad al ser
   resucitado, ni es consustancial al Padre. El es Judío, fiel completamente a la
   observancia de la Torah, eso sí, no habiendo cometido ningún pecado a pesar de
-  su inclinación al mal y dando su vida para la redención de Israel y el mundo
-  en su rol de Mashiaj ben Yosef.
+  ser tentado y dando su vida para la redención de Israel y el mundo en su rol
+  de Mashiaj ben Yosef.
 
 - Acepto como textos sagrados el Tanaj y la Brit Jadasha, en su conjunto
   conocida como Biblia, la cual es toda dada a Israel, enfoque en que debe ser
