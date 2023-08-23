@@ -8,7 +8,7 @@ export default {
       "black": "#181a1b",
       "metal": "#1e2022",
       "silver": "#cdc8c2",
-      "blue": "#1f202d",
+      "blue": "#374052",
       "plate": "#d6d3cd",
       "opaque": "#b1aaa0",
       "cream": "#afa99e",
