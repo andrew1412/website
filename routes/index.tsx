@@ -113,7 +113,7 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
             </div>
           </div>
         </main>
-        <footer class="w-10/12 sm:w-96 mx-auto flex flex-col items-center">
+        <footer class="w-10/12 sm:w-96 mx-auto flex flex-col items-center mt-12 mb-20">
           <p>
             <img
               src="https://count.ayaya.beauty/get/@:index.html.andrew1412?theme=asoul"
