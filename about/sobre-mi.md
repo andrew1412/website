@@ -120,8 +120,8 @@ hacer un top de favoritos se vería así:
 - Lucky Star
 - Haibane Renmei
 - Madoka
-- Shoujo Shuumatsu Riokou
-- Welcome to NHK
+- Girls Last Tour
+- Welcome to the NHK
 - Kino no Tabi
 - Non Non Biyori
 
