@@ -37,7 +37,7 @@ export default function Tabs(props: TabsProps) {
             <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 class={`rounded-lg text-xs font-bold px-1 py-1 block leading-normal ${
-                  openTab === 1 ? "text-plate shadow bg-black" : "text-opaque"
+                  openTab === 1 ? "text-plate bg-black" : "text-opaque"
                 }`}
                 onClick={(e) => {
                   e.preventDefault();
@@ -53,7 +53,7 @@ export default function Tabs(props: TabsProps) {
             <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 class={`rounded-lg text-xs font-bold px-1 py-1 block leading-normal ${
-                  openTab === 2 ? "text-plate shadow bg-black" : "text-opaque"
+                  openTab === 2 ? "text-plate bg-black" : "text-opaque"
                 }`}
                 onClick={(e) => {
                   e.preventDefault();
@@ -78,7 +78,7 @@ export default function Tabs(props: TabsProps) {
                       <div class="flex flex-col items-center space-y-1 py-8">
                         <List size={32} color="#9ca3af" />
                         <h2 class="text-sm font-bold text-gray-400 leading-tight mb-1">
-                          No links yet.
+                          No hay links todavia.
                         </h2>
                       </div>
                     )}

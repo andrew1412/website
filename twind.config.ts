@@ -11,6 +11,7 @@ export default {
       "blue": "#1f202d",
       "plate": "#d6d3cd",
       "opaque": "#b1aaa0",
+      "cream": "#afa99e",
     },
   },
   selfURL: import.meta.url,
