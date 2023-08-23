@@ -93,25 +93,27 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
           content="Sitio Web y Blog personal de Andrew1412, un Vtuber que quiere compartir sus ideas en internet. Links a YouTube, Odysee y Github de Andrew 1412."
         />
       </Head>
-      <main class="w-10/12 sm:w-96 mx-auto bg-purple">
-        <div class="flex flex-col w-full mt-12 mb-28">
-          <div class="flex flex-col items-center w-full w-full rounded-xl p-4">
-            <AvatarComponent avatar={avatar} />
-            <UsernameComponent username={username} />
-            <BioComponent bio={bio} />
+      <body class="bg-black">
+        <main class="w-10/12 sm:w-96 mx-auto">
+          <div class="flex flex-col w-full mt-12 mb-28">
+            <div class="flex flex-col items-center w-full w-full rounded-xl p-4">
+              <AvatarComponent avatar={avatar} />
+              <UsernameComponent username={username} />
+              <BioComponent bio={bio} />
 
-            {readme && <ReadmeButtonComponent />}
-            <SocialLinksComponent socialAccounts={socialAccounts} />
-            {banner && (
-              <BannerComponent
-                title={banner.title}
-                text={banner.text}
-              />
-            )}
-            <TabsIsland links={links} feed={feed} />
+              {readme && <ReadmeButtonComponent />}
+              <SocialLinksComponent socialAccounts={socialAccounts} />
+              {banner && (
+                <BannerComponent
+                  title={banner.title}
+                  text={banner.text}
+                />
+              )}
+              <TabsIsland links={links} feed={feed} />
+            </div>
           </div>
-        </div>
-      </main>
+        </main>
+      </body>
     </>
   );
 }

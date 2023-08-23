@@ -6,16 +6,16 @@ export default function Banner(
   const { title, text } = props;
 
   return (
-    <div class="bg-purple-100 rounded-2xl px-4 py-4 mb-4 min-w-full">
+    <div class="rounded-2xl px-4 py-4 mb-4 min-w-full bg-blue">
       <div class="flex space-x-4">
         <div>
-          <Star size={20} color={"#968db8"} />
+          <Star size={20} color={"#bdb47e"} />
         </div>
         <div>
-          <h2 class="font-bold text-gray-900 leading-tight mb-1">
+          <h2 class="font-bold leading-tight mb-1" style="color: #d6d3cd;">
             {title}
           </h2>
-          <p class="text-sm text-gray-600">
+          <p class="text-sm" style="color: #b1aaa0;">
             {text}
           </p>
         </div>

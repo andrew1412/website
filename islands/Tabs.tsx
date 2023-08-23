@@ -31,15 +31,13 @@ export default function Tabs(props: TabsProps) {
       <div class="w-full">
         {feed && (
           <ul
-            class="flex bg-gray-100 mb-0 list-none flex-wrap px-1 py-1 flex-row rounded-xl"
+            class="flex bg-metal mb-0 list-none flex-wrap px-1 py-1 flex-row rounded-xl"
             role="tablist"
           >
             <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 class={`rounded-lg text-xs font-bold px-1 py-1 block leading-normal ${
-                  openTab === 1
-                    ? "text-gray-900 shadow bg-white"
-                    : "text-gray-600"
+                  openTab === 1 ? "text-plate shadow bg-black" : "text-opaque"
                 }`}
                 onClick={(e) => {
                   e.preventDefault();
@@ -55,9 +53,7 @@ export default function Tabs(props: TabsProps) {
             <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 class={`rounded-lg text-xs font-bold px-1 py-1 block leading-normal ${
-                  openTab === 2
-                    ? "text-gray-900 shadow bg-white"
-                    : "text-gray-600"
+                  openTab === 2 ? "text-plate shadow bg-black" : "text-opaque"
                 }`}
                 onClick={(e) => {
                   e.preventDefault();
@@ -72,7 +68,7 @@ export default function Tabs(props: TabsProps) {
             </li>
           </ul>
         )}
-        <div class="relative mt-4 flex flex-col bg-white w-full">
+        <div class="relative mt-4 flex flex-col  w-full">
           <div class="flex-auto">
             <div>
               <div class={`${openTab === 1 ? "block" : "hidden"}`}>

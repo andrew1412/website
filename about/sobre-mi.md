@@ -163,8 +163,6 @@ que no tiene sentido estar repitiendo el nombre de un mismo juego todo el rato:
 - Metro 2033
 - Doom 2
 
-### Música
-
 # Informática
 
 Desde pequeño siempre me ha gustado trastear con computadoras, me parecía súper
@@ -224,3 +222,26 @@ Pc:
 Celular:
 
 - Pixel 4a
+
+### Skills
+
+Con el paso del tiempo y de forma completamente autodidacta he aprendido a usar
+varios lenguajes de programación, runetimes, frameworks y librerias, todo
+enfocado al desarrollo web. No podría decir que soy un experto en ninguno de
+ellos y todavía me falta mucho por aprender. Algunas de las herramientas que
+manejo son:
+
+- HTML
+- CSS
+- Markdown
+- JavaScript
+- TypeScript
+- Git
+- Deno
+- Fresh
+- React
+- Preact
+- Tailwind
+- Linux
+- NeoVim
+- VSCodium

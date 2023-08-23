@@ -5,7 +5,7 @@ export default function SocialLinkWrapper(
 ) {
   return (
     <a
-      class="rounded-full p-3 bg-gray-100"
+      class="rounded-full p-3 bg-metal"
       href={props.href}
       target="_blank"
       rel="noopener noreferrer"
