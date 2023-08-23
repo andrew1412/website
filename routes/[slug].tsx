@@ -26,20 +26,22 @@ export default function PostPage(props: PageProps<Post>) {
         <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
       <a
-        class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 left-4"
+        class="bg-metal px-2 py-2 rounded-lg fixed top-4 left-4"
         href="/blog"
       >
-        <ArrowLeft size={18} color="#1f2937" stroke-width={2.5} />
+        <ArrowLeft size={18} color="#cdc8c2" stroke-width={2.5} />
       </a>
       <body data-color-mode="dark" data-dark-theme="dark" class="bg-black">
         <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
           <div class="mx-auto max-w-screen-sm max-w-lg w-full mt-4 sm:mt-0">
             {post.coverHtml && <img src={post.coverHtml} alt={post.title} />}
           </div>
-          <h1 class="mt-6 text-5xl font-bold">{post.title}</h1>
+          <h1 class="mt-6 text-5xl font-bold" style="color: white">
+            {post.title}
+          </h1>
           <div class="mt-8">
             <p>
-              <time class="text-gray-500">
+              <time class="text-opaque">
                 {new Date(post.publishedAt).toLocaleDateString("es-es", {
                   day: "numeric",
                   month: "long",
@@ -48,9 +50,9 @@ export default function PostPage(props: PageProps<Post>) {
               </time>
             </p>
             <p>
-              <span class="">{post.author}</span>
+              <span class="text-plate">{post.author}</span>
             </p>
-            <div class="flow-root mt-8 text-sm text-gray-600">
+            <div class="flow-root mt-8 text-sm text-gray">
               <p class="-m-2 flex flex-row">
                 <Tags tags={post.tags} />
               </p>
