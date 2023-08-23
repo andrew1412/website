@@ -40,17 +40,19 @@ export default function AboutPage({ data }: PageProps<HandlerProps>) {
         <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
       <a
-        class="bg-gray-100 px-2 py-2 rounded-lg fixed top-4 left-4"
+        class="bg-metal px-2 py-2 rounded-lg fixed top-4 left-4"
         href="/"
       >
-        <ArrowLeft size={18} color="#1f2937" stroke-width={2.5} />
+        <ArrowLeft size={18} color="#cdc8c2" stroke-width={2.5} />
       </a>
-      <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
-        <div
-          class="mt-8 markdown-body"
-          dangerouslySetInnerHTML={{ __html: render(readmeText) }}
-        />
-      </article>
+      <body data-color-mode="dark" data-dark-theme="dark" class="markdown-body">
+        <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
+          <div
+            class="mt-8 markdown-body"
+            dangerouslySetInnerHTML={{ __html: render(readmeText) }}
+          />
+        </article>
+      </body>
     </>
   );
 }
