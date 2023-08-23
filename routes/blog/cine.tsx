@@ -47,95 +47,97 @@ export default function Blog(props: PageProps<Post[]>) {
       <Head>
         <title>Blog - Andrew 1412</title>
       </Head>
-      <main class="w-10/12 sm:w-96 mx-auto">
-        <div class="flex flex-col w-full mt-12 mb-28">
-          <div class="flex flex-col items-center w-full w-full rounded-xl p-4">
-            <AvatarComponent avatar={avatar} />
-            <UsernameComponent username={username} />
-            <BioComponent bio={bio} />
-            {readme && <ReadmeButtonComponent />}
-          </div>
-          <div class="flex flex-col items-center w-full p-4 mt-4 text-sm">
-            <div class="-m-4 flex flex-row flex-wrap text-bluegray-500 text-gray-600 font-bold">
-              <a
-                class="m-2 py-1 px-2 hover:underline"
-                href="/blog/analisis"
-              >
-                #analisis
-              </a>
-              <a
-                class="m-2 py-1 px-2 hover:underline"
-                href="/blog/anime"
-              >
-                #anime
-              </a>
-              <a
-                class="m-2 py-1 px-2 hover:underline  bg-gray-100 rounded"
-                href="/blog"
-              >
-                #cine
-              </a>
-              <a
-                class="m-2 py-1 px-2 hover:underline"
-                href="/blog/gaming"
-              >
-                #gaming
-              </a>
-              <a
-                class="m-2 py-1 px-2 hover:underline"
-                href="/blog/manga"
-              >
-                #manga
-              </a>
-              <a
-                class="m-2 py-1 px-2 hover:underline"
-                href="/blog/opinion"
-              >
-                #opinión
-              </a>
-              <a
-                class="m-2 py-1 px-2 hover:underline"
-                href="/blog/politica"
-              >
-                #política
-              </a>
-              <a
-                class="m-2 py-1 px-2 hover:underline"
-                href="/blog/reflexiones"
-              >
-                #reflexiones
-              </a>
-              <a
-                class="m-2 py-1 px-2 hover:underline"
-                href="/blog/religion"
-              >
-                #religión
-              </a>
-              <a
-                class="m-2 py-1 px-2 hover:underline"
-                href="/blog/tecnologia"
-              >
-                #tecnología
-              </a>
+      <body class="bg-black">
+        <main class="w-10/12 sm:w-96 mx-auto">
+          <div class="flex flex-col w-full mt-12 mb-28">
+            <div class="flex flex-col items-center w-full w-full rounded-xl p-4">
+              <AvatarComponent avatar={avatar} />
+              <UsernameComponent username={username} />
+              <BioComponent bio={bio} />
+              {readme && <ReadmeButtonComponent />}
+            </div>
+            <div class="flex flex-col items-center w-full p-4 mt-4 text-sm">
+              <div class="-m-4 flex flex-row flex-wrap text-gray font-bold">
+                <a
+                  class="m-2 py-1 px-2 hover:underline"
+                  href="/blog/analisis"
+                >
+                  #analisis
+                </a>
+                <a
+                  class="m-2 py-1 px-2 hover:underline"
+                  href="/blog/anime"
+                >
+                  #anime
+                </a>
+                <a
+                  class="m-2 py-1 px-2 hover:underline  bg-metal rounded"
+                  href="/blog"
+                >
+                  #cine
+                </a>
+                <a
+                  class="m-2 py-1 px-2 hover:underline"
+                  href="/blog/gaming"
+                >
+                  #gaming
+                </a>
+                <a
+                  class="m-2 py-1 px-2 hover:underline"
+                  href="/blog/manga"
+                >
+                  #manga
+                </a>
+                <a
+                  class="m-2 py-1 px-2 hover:underline"
+                  href="/blog/opinion"
+                >
+                  #opinión
+                </a>
+                <a
+                  class="m-2 py-1 px-2 hover:underline"
+                  href="/blog/politica"
+                >
+                  #política
+                </a>
+                <a
+                  class="m-2 py-1 px-2 hover:underline"
+                  href="/blog/reflexiones"
+                >
+                  #reflexiones
+                </a>
+                <a
+                  class="m-2 py-1 px-2 hover:underline"
+                  href="/blog/religion"
+                >
+                  #religión
+                </a>
+                <a
+                  class="m-2 py-1 px-2 hover:underline"
+                  href="/blog/tecnologia"
+                >
+                  #tecnología
+                </a>
+              </div>
+            </div>
+            <div class="mt-8" style="color: #21262d">
+              {posts.length > 0
+                ? posts.map((post) => <PostCard post={post} />)
+                : (
+                  <div class="flex flex-col items-center space-y-1 py-8">
+                    <FileText size={32} color="#cdc8c2" />
+                    <h2 class="text-sm font-bold text-opaque leading-tight mb-1">
+                      No hay publicaciones todavia.
+                    </h2>
+                  </div>
+                )}
             </div>
           </div>
-          <div class="mt-8">
-            {posts.length > 0
-              ? posts.map((post) => <PostCard post={post} />)
-              : (
-                <div class="flex flex-col items-center space-y-1 py-8">
-                  <FileText size={32} color="#9ca3af" />
-                  <h2 class="text-sm font-bold text-gray-400 leading-tight mb-1">
-                    No hay publicaciones todavia.
-                  </h2>
-                </div>
-              )}
+          <div class="flex flex-col items-center w-full w-full p-4">
+            <Footer />
           </div>
-        </div>
-        <div class="flex flex-col items-center w-full w-full p-4">
-          <Footer />
-        </div>
-      </main>
+        </main>
+      </body>
     </>
   );
 }

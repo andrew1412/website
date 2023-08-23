@@ -17,10 +17,9 @@ import * as $11 from "./routes/blog/politica.tsx";
 import * as $12 from "./routes/blog/reflexiones.tsx";
 import * as $13 from "./routes/blog/religion.tsx";
 import * as $14 from "./routes/blog/tecnologia.tsx";
-import * as $15 from "./routes/dibujos.tsx";
-import * as $16 from "./routes/feed.ts";
-import * as $17 from "./routes/fotos.tsx";
-import * as $18 from "./routes/index.tsx";
+import * as $15 from "./routes/feed.ts";
+import * as $16 from "./routes/galeria.tsx";
+import * as $17 from "./routes/index.tsx";
 import * as $$0 from "./islands/ColorMode.tsx";
 import * as $$1 from "./islands/Tabs.tsx";
 
@@ -41,10 +40,9 @@ const manifest = {
     "./routes/blog/reflexiones.tsx": $12,
     "./routes/blog/religion.tsx": $13,
     "./routes/blog/tecnologia.tsx": $14,
-    "./routes/dibujos.tsx": $15,
-    "./routes/feed.ts": $16,
-    "./routes/fotos.tsx": $17,
-    "./routes/index.tsx": $18,
+    "./routes/feed.ts": $15,
+    "./routes/galeria.tsx": $16,
+    "./routes/index.tsx": $17,
   },
   islands: {
     "./islands/ColorMode.tsx": $$0,

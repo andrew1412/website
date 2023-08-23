@@ -36,7 +36,9 @@
     "feed": "https://esm.sh/feed@4.2.2",
     "html": "https://deno.land/x/htm@0.2.0/mod.ts",
     "ColorScheme": "https://deno.land/x/htm@0.2.0/plugins/color-scheme.ts",
-    "preact-scroll-header": "https://unpkg.com/preact-scroll-header@1.0.0/dist/preact-scroll-header.min.js"
+    "preact-scroll-header": "https://unpkg.com/preact-scroll-header@1.0.0/dist/preact-scroll-header.min.js",
+
+    "fresh-seo": "https://deno.land/x/fresh_seo/mod.ts"
   },
   "compilerOptions": {
     "jsx": "react-jsx",

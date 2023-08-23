@@ -1,13 +1,13 @@
 {
   "$schema": "schema.json",
   "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg",
-  "username": "Fotos",
+  "username": "Galeria",
   "links": [
     { "url": "https://example.com", "title": "Blog" },
     { "url": "https://example.com", "title": "Dibujos" },
     { "url": "https://example.com", "title": "Fotos" }
   ],
-  "bio": "🐈‍⬛ Vtuber",
+  "bio": "Fotos y Dibujos",
   "location": "Chile",
   "socialAccounts": {
     "github": "https://github.com/andrew1412",
