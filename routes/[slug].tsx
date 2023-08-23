@@ -31,35 +31,37 @@ export default function PostPage(props: PageProps<Post>) {
       >
         <ArrowLeft size={18} color="#1f2937" stroke-width={2.5} />
       </a>
-      <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
-        <div class="mx-auto max-w-screen-sm max-w-lg w-full mt-4 sm:mt-0">
-          {post.coverHtml && <img src={post.coverHtml} alt={post.title} />}
-        </div>
-        <h1 class="mt-6 text-5xl font-bold">{post.title}</h1>
-        <div class="mt-8">
-          <p>
-            <time class="text-gray-500">
-              {new Date(post.publishedAt).toLocaleDateString("es-es", {
-                day: "numeric",
-                month: "long",
-                year: "numeric",
-              })}
-            </time>
-          </p>
-          <p>
-            <span class="">{post.author}</span>
-          </p>
-          <div class="flow-root mt-8 text-sm text-gray-600">
-            <p class="-m-2 flex flex-row">
-              <Tags tags={post.tags} />
-            </p>
+      <body data-color-mode="dark" data-dark-theme="dark" class="bg-black">
+        <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
+          <div class="mx-auto max-w-screen-sm max-w-lg w-full mt-4 sm:mt-0">
+            {post.coverHtml && <img src={post.coverHtml} alt={post.title} />}
           </div>
-        </div>
-        <div
-          class="mt-8 markdown-body"
-          dangerouslySetInnerHTML={{ __html: render(post.content) }}
-        />
-      </article>
+          <h1 class="mt-6 text-5xl font-bold">{post.title}</h1>
+          <div class="mt-8">
+            <p>
+              <time class="text-gray-500">
+                {new Date(post.publishedAt).toLocaleDateString("es-es", {
+                  day: "numeric",
+                  month: "long",
+                  year: "numeric",
+                })}
+              </time>
+            </p>
+            <p>
+              <span class="">{post.author}</span>
+            </p>
+            <div class="flow-root mt-8 text-sm text-gray-600">
+              <p class="-m-2 flex flex-row">
+                <Tags tags={post.tags} />
+              </p>
+            </div>
+          </div>
+          <div
+            class="mt-8 markdown-body"
+            dangerouslySetInnerHTML={{ __html: render(post.content) }}
+          />
+        </article>
+      </body>
     </>
   );
 }

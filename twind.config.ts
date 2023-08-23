@@ -5,8 +5,8 @@ export default {
     colors: {
       "white": "#e8e6e3",
       "gray": "#cecac3",
-      "black": "#181a1b",
-      "metal": "#1e2022",
+      "black": "#0d1117",
+      "metal": "#222833",
       "silver": "#cdc8c2",
       "blue": "#374052",
       "plate": "#d6d3cd",

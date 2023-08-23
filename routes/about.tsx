@@ -45,7 +45,7 @@ export default function AboutPage({ data }: PageProps<HandlerProps>) {
       >
         <ArrowLeft size={18} color="#cdc8c2" stroke-width={2.5} />
       </a>
-      <body data-color-mode="dark" data-dark-theme="dark" class="markdown-body">
+      <body data-color-mode="dark" data-dark-theme="dark" class="bg-black">
         <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
           <div
             class="mt-8 markdown-body"
