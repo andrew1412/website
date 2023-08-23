@@ -121,8 +121,8 @@ export default function Blog(props: PageProps<Post[]>) {
                 ? posts.map((post) => <PostCard post={post} />)
                 : (
                   <div class="flex flex-col items-center space-y-1 py-8">
-                    <FileText size={32} color="silver" />
-                    <h2 class="text-sm font-bold text-gray-400 leading-tight mb-1">
+                    <FileText size={32} color="#cdc8c2" />
+                    <h2 class="text-sm font-bold text-opaque leading-tight mb-1">
                       No hay publicaciones todavia.
                     </h2>
                   </div>
