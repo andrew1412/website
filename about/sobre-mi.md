@@ -213,13 +213,13 @@ encontrarlo todo en mi Github
 [aqui](https://github.com/andrew1412/lain-catppuccin-dotfiles). En cuanto a
 hardware:
 
-Pc:
+Pc
 
 - CPU: Intel Core i5 9600K
 - GPU: Nvidia GTX 1060 6Gb
 - Ram: 16Gb
 
-Celular:
+Celular
 
 - Pixel 4a
 

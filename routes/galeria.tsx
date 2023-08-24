@@ -42,102 +42,105 @@ export default function Fotos() {
             </div>
             <div>
               <div class="grid grid-cols-3 md:grid-cols-3 gap-4">
-                <div>
+                <a
+                  href="https://github.com/andrew1412/website/raw/main/static/logos/pfp-4.webp"
+                  target="_blank"
+                >
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="">
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="">
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="">
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="">
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="">
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="">
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="">
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="">
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="">
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="">
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="">
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
+                </a>
               </div>
             </div>
           </div>
