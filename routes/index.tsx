@@ -95,7 +95,7 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
       </Head>
       <body class="bg-black">
         <main class="w-10/12 sm:w-96 mx-auto">
-          <div class="flex flex-col w-full mt-12 mb-28">
+          <div class="flex flex-col w-full mt-12">
             <div class="flex flex-col items-center w-full w-full rounded-xl p-4">
               <AvatarComponent avatar={avatar} />
               <UsernameComponent username={username} />
@@ -113,11 +113,11 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
             </div>
           </div>
         </main>
-        <footer class="w-10/12 sm:w-96 mx-auto flex flex-col items-center mt-12 mb-20">
+        <footer class="w-10/12 sm:w-96 mx-auto flex flex-col items-center mt-4 mb-4">
           <p>
             <img
-              src="https://count.ayaya.beauty/get/@:index.html.andrew1412?theme=asoul"
-              style="width: 200px;"
+              src="https://count.getloli.com/get/@index.html.andrew1412?theme=asoul"
+              style="width: 270px;"
               title="Contador de visitas"
               alt="Contador de visitas"
             />
