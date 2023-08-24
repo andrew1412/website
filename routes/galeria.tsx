@@ -32,7 +32,7 @@ export default function Fotos() {
         <title>Galeria - Andrew 1412</title>
       </Head>
       <body class="bg-black">
-        <main class="w-10/12 sm:w-90 mx-auto">
+        <main class="w-10/12 sm:w-96 mx-auto">
           <div class="flex flex-col w-full mt-12 mb-28">
             <div class="flex flex-col items-center w-full w-full rounded-xl p-4">
               <AvatarComponent avatar={avatar} />
@@ -41,7 +41,7 @@ export default function Fotos() {
               {readme && <ReadmeButtonComponent />}
             </div>
             <div>
-              <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <div class="grid grid-cols-3 md:grid-cols-3 gap-4">
                 <div>
                   <img
                     class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
