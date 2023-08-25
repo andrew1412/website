@@ -186,7 +186,7 @@ arriba donde el jugador y los enemigos eran círculos de colores, todavía devé
 estar por ahí acumulando polvo en algún USB.
 
 No se en que momento fue ni como paso, pero en algún punto me empece a interesar
-por la cyber seguridad y privacidad de mis datos en Internet. Pero cuando tuve
+por la ciber seguridad y privacidad de mis datos en Internet. Pero cuando tuve
 por fin mi propio Pc de escritorio y con la intención de jugar distintos vídeo
 juegos, instale Windows 10 y me relaje al punto de llegar usar Google Chrome y
 guardar contraseñas en el navegador, cosa que nunca había hecho y nadie debería
