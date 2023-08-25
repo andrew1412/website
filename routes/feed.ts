@@ -14,7 +14,8 @@ export const handler: Handlers<Post[]> = {
       id: `${origin}/blog`,
       link: `${origin}/blog`,
       language: "es",
-      favicon: `${origin}/static/favicon.ico`,
+      favicon:
+        `https://github.com/andrew1412/website/raw/main/static/favicon.ico`,
       copyright: copyright,
       generator: "Feed (https://github.com/jpmonette/feed) for Deno",
       feedLinks: {
