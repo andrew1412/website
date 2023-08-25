@@ -40,7 +40,7 @@ export default function PostPage(props: PageProps<Post>) {
             {post.title}
           </h1>
           <div class="mt-8">
-            <div>
+            <p>
               <time class="text-opaque">
                 {new Date(post.publishedAt).toLocaleDateString("es-es", {
                   day: "numeric",
@@ -48,14 +48,14 @@ export default function PostPage(props: PageProps<Post>) {
                   year: "numeric",
                 })}
               </time>
-            </div>
-            <div>
+            </p>
+            <p>
               <span class="text-plate">{post.author}</span>
-            </div>
+            </p>
             <div class="flow-root mt-8 text-sm text-gray">
-              <div class="flex flex-row">
+              <p class="flex flex-row">
                 <Tags tags={post.tags} />
-              </div>
+              </p>
             </div>
           </div>
           <div
