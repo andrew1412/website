@@ -45,16 +45,18 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/logos/IMG_20220124_182709.jpg"
                   alt=""
+                  style="width: 828px;"
                   loading="lazy"
                 />
               </div>
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+                  src="https://search.zzls.xyz/image_proxy?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FkYyVt29IMSc%2Fmaxresdefault.jpg&h=a117d03175f867f494f24fd624824f72a211a31b84de2f2fc15796850a03b406"
                   alt=""
+                  style="width: 828px;"
                   loading="lazy"
                 />
               </div>
