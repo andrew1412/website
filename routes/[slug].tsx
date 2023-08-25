@@ -53,7 +53,7 @@ export default function PostPage(props: PageProps<Post>) {
               <span class="text-plate">{post.author}</span>
             </div>
             <div class="flow-root mt-8 text-sm text-gray">
-              <div class="-m-2 flex flex-row">
+              <div class="flex flex-row">
                 <Tags tags={post.tags} />
               </div>
             </div>
