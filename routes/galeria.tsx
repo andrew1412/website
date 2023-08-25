@@ -40,106 +40,73 @@ export default function Fotos() {
               <BioComponent bio={bio} />
               {readme && <ReadmeButtonComponent />}
             </div>
-            <div>
-              <div class="grid grid-cols-3 md:grid-cols-3 gap-4">
-                <a
-                  href="https://github.com/andrew1412/website/raw/main/static/logos/pfp-4.webp"
-                  target="_blank"
-                >
+            <div class="grid grid-cols-2 md:grid-cols-2 gap-4">
+              <div class="relative group">
+                <a href="/galeria/mi-gata">
                   <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
+                    class="h-auto max-w-full rounded-lg cursor-pointer group-hover:opacity-50 group-hover:scale-105 transition duration-300 ease-in-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
                     alt=""
                     loading="lazy"
                   />
+                  <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 hover:scale-105 transition duration-500">
+                    <div class="flex-row text-center">
+                      <h1 class="text-white font-bold text-lg">
+                        MI GATA
+                      </h1>
+                    </div>
+                  </div>
                 </a>
-                <a href="">
+              </div>
+              <div class="relative group">
+                <a href="/galeria/fumos">
                   <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
+                    class="h-auto max-w-full rounded-lg cursor-pointer group-hover:opacity-50 group-hover:scale-105 transition duration-300 ease-in-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
                     alt=""
                     loading="lazy"
                   />
+                  <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 hover:scale-105 transition duration-500">
+                    <div class="flex-row text-center">
+                      <h1 class="text-white font-bold text-lg">
+                        FUMOS
+                      </h1>
+                    </div>
+                  </div>
                 </a>
-                <a href="">
+              </div>
+              <div class="relative group">
+                <a href="/galeria/paisajes">
                   <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
+                    class="h-auto max-w-full rounded-lg cursor-pointer group-hover:opacity-50 group-hover:scale-105 transition duration-300 ease-in-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
                     alt=""
                     loading="lazy"
                   />
+                  <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 hover:scale-105 transition duration-500">
+                    <div class="flex-row text-center">
+                      <h1 class="text-white font-bold text-lg">
+                        PAISAJES
+                      </h1>
+                    </div>
+                  </div>
                 </a>
-                <a href="">
+              </div>
+              <div class="relative group">
+                <a href="/galeria/dibujos">
                   <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
+                    class="h-auto max-w-full rounded-lg cursor-pointer group-hover:opacity-50 group-hover:scale-105 transition duration-300 ease-in-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </a>
-                <a href="">
-                  <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
-                    alt=""
-                    loading="lazy"
-                  />
-                </a>
-                <a href="">
-                  <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
-                    alt=""
-                    loading="lazy"
-                  />
-                </a>
-                <a href="">
-                  <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
-                    alt=""
-                    loading="lazy"
-                  />
-                </a>
-                <a href="">
-                  <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
-                    alt=""
-                    loading="lazy"
-                  />
-                </a>
-                <a href="">
-                  <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg"
-                    alt=""
-                    loading="lazy"
-                  />
-                </a>
-                <a href="">
-                  <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg"
-                    alt=""
-                    loading="lazy"
-                  />
-                </a>
-                <a href="">
-                  <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
-                    alt=""
-                    loading="lazy"
-                  />
-                </a>
-                <a href="">
-                  <img
-                    class="h-auto max-w-full rounded-lg hover:scale-105 transition duration-500 cursor-pointer"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg"
-                    alt=""
-                    loading="lazy"
-                  />
+                  <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 hover:scale-105 transition duration-500">
+                    <div class="flex-row text-center">
+                      <h1 class="text-white font-bold text-lg">
+                        DIBUJOS
+                      </h1>
+                    </div>
+                  </div>
                 </a>
               </div>
             </div>

@@ -7,7 +7,7 @@
     { "url": "/galeria", "title": "Galeria" },
     { "url": "https://example.com", "title": "Fotos" }
   ],
-  "bio": "Fotos y Dibujos",
+  "bio": "Albums",
   "location": "Chile",
   "socialAccounts": {
     "github": "https://github.com/andrew1412",

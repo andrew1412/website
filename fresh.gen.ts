@@ -19,10 +19,12 @@ import * as $13 from "./routes/blog/religion.tsx";
 import * as $14 from "./routes/blog/tecnologia.tsx";
 import * as $15 from "./routes/feed.ts";
 import * as $16 from "./routes/galeria.tsx";
-import * as $17 from "./routes/galeria/image.tsx";
-import * as $18 from "./routes/index.tsx";
-import * as $$0 from "./islands/ColorMode.tsx";
-import * as $$1 from "./islands/Tabs.tsx";
+import * as $17 from "./routes/galeria/dibujos.tsx";
+import * as $18 from "./routes/galeria/fumos.tsx";
+import * as $19 from "./routes/galeria/mi-gata.tsx";
+import * as $20 from "./routes/galeria/paisajes.tsx";
+import * as $21 from "./routes/index.tsx";
+import * as $$0 from "./islands/Tabs.tsx";
 
 const manifest = {
   routes: {
@@ -43,12 +45,14 @@ const manifest = {
     "./routes/blog/tecnologia.tsx": $14,
     "./routes/feed.ts": $15,
     "./routes/galeria.tsx": $16,
-    "./routes/galeria/image.tsx": $17,
-    "./routes/index.tsx": $18,
+    "./routes/galeria/dibujos.tsx": $17,
+    "./routes/galeria/fumos.tsx": $18,
+    "./routes/galeria/mi-gata.tsx": $19,
+    "./routes/galeria/paisajes.tsx": $20,
+    "./routes/index.tsx": $21,
   },
   islands: {
-    "./islands/ColorMode.tsx": $$0,
-    "./islands/Tabs.tsx": $$1,
+    "./islands/Tabs.tsx": $$0,
   },
   baseUrl: import.meta.url,
 };
