@@ -62,7 +62,7 @@ export default function Fotos() {
                 <a href="/galeria/fumos">
                   <img
                     class="h-auto max-w-full rounded-lg cursor-pointer group-hover:opacity-50 group-hover:scale-105 transition duration-300 ease-in-out"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+                    src="https://github.com/andrew1412/website/raw/main/static/imagenes/andrew1412.galeria.fumos.webp"
                     alt=""
                     loading="lazy"
                   />
@@ -79,7 +79,7 @@ export default function Fotos() {
                 <a href="/galeria/paisajes">
                   <img
                     class="h-auto max-w-full rounded-lg cursor-pointer group-hover:opacity-50 group-hover:scale-105 transition duration-300 ease-in-out"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+                    src="https://github.com/andrew1412/website/raw/main/static/imagenes/andrew1412.galeria.paisajes.webp"
                     alt=""
                     loading="lazy"
                   />
