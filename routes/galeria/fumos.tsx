@@ -41,22 +41,20 @@ export default function Fotos() {
       <body class="bg-black">
         <main class="w-10/12 mx-auto">
           <div class="flex flex-col w-full mt-12 mb-28">
-            <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto">
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/logos/IMG_20220124_182709.jpg"
+                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
                   alt=""
-                  style="width: 828px;"
                   loading="lazy"
                 />
               </div>
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://search.zzls.xyz/image_proxy?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FkYyVt29IMSc%2Fmaxresdefault.jpg&h=a117d03175f867f494f24fd624824f72a211a31b84de2f2fc15796850a03b406"
+                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
                   alt=""
-                  style="width: 828px;"
                   loading="lazy"
                 />
               </div>

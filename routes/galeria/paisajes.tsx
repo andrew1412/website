@@ -41,7 +41,7 @@ export default function Fotos() {
       <body class="bg-black">
         <main class="w-10/12 mx-auto">
           <div class="flex flex-col w-full mt-12 mb-28">
-            <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto">
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
