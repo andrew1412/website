@@ -45,7 +45,7 @@ export default function Blog(props: PageProps<Post[]>) {
       </Head>
       <body class="bg-black">
         <main class="w-10/12 sm:w-96 mx-auto">
-          <div class="flex flex-col w-full mt-12 mb-28">
+          <div class="flex flex-col w-full mt-12">
             <div class="flex flex-col items-center w-full w-full rounded-xl p-4">
               <AvatarComponent avatar={avatar} />
               <UsernameComponent username={username} />
@@ -129,10 +129,8 @@ export default function Blog(props: PageProps<Post[]>) {
                 )}
             </div>
           </div>
-          <div class="flex flex-col items-center w-full w-full p-4">
-            <Footer />
-          </div>
         </main>
+        <Footer />
       </body>
     </>
   );

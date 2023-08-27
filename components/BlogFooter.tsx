@@ -2,7 +2,7 @@ import { Rss } from "preact-feather";
 
 export default function Footer(props: { author?: string }) {
   return (
-    <footer class="mt-20 pb-16 lt-sm:pb-8 lt-sm:mt-16">
+    <footer class="w-10/12 sm:w-96 mx-auto flex flex-col items-center mt-8 mb-4">
       <p class="flex items-center gap-2.5 text-gray text-sm">
         <a
           href="/feed"
