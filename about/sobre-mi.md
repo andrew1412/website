@@ -124,7 +124,7 @@ política importan muy poco cuanto más independiente se es del sistema.
 Muchos están sumergidos en el afán de hacer algo, involucrándose en algún
 partido o dando la "batalla cultural", pensando que esto se puede revertir de
 alguna manera ¿Qué sentido tiene abandonar por completo el "proceso político"?
-Suena como rendirse. Y suena como rendirse precisamente porque los es, porque el
+Suena como rendirse. Y suena como rendirse precisamente porque lo es, porque el
 "proceso político" es algo interno al sistema. Es por eso que incluso cuando
 aparentemente el "proceso político" hace algo que no le gusta al sistema, como
 elegir a Trump, sus acciones no hacen ningún gran cambio puesto que todos son
