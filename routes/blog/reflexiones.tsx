@@ -149,7 +149,7 @@ function PostCard(props: { post: Post }) {
       <div class="py-8 border(t gray-200)">
         <div class="w-56">
           <p>
-            <time class="text-gray-500">
+            <time class="text-opaque">
               {new Date(post.publishedAt).toLocaleDateString("es-es", {
                 day: "numeric",
                 month: "long",
@@ -157,15 +157,18 @@ function PostCard(props: { post: Post }) {
               })}
             </time>
           </p>
-          <div class="flow-root mt-8 text-sm text-gray-600">
+          <p>
+            <span class="text-plate">{post.author}</span>
+          </p>
+          <div class="flow-root mt-8 text-sm text-gray">
             <Tags tags={post.tags} />
           </div>
         </div>
         <a class="sm:col-span-2" href={`/${post.slug}`}>
-          <h3 class="text(3xl gray-900) font-bold">
+          <h3 class="text(3xl white) font-bold">
             {post.title}
           </h3>
-          <div class="mt-4 text-gray-900">
+          <div class="mt-4 text-plate">
             {post.snippet}
           </div>
         </a>

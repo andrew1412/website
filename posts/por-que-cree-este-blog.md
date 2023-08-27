@@ -19,20 +19,12 @@ principio. Pero esto no siempre fue así.
 
 ## Wolrd Wide Web
 
-Si te has topado con la pagina personal de alguien alguna vez, lo mas probable
-es que haya sido algo simple, y una vez viste una ya las haz vito todas, una
-pagina única dedicada a enlazar las distintas redes sociales en las que esta
-persona se dedica a publicar, mas una breve descripción de quien es o que hace.
-Las paginas personales se han convertido hoy en las tarjetas de presentación
-digitales, un papel desechable que solo se mira una vez antes de tirarlo a la
-basura, o en este caso, ir a la red social o sitio al que se pretendía desde un
-principio. Pero esto no siempre fue así. Al comienzo de la popularidad de
-Internet todo el mundo quería tener su propia pagina web, al punto que hubo una
-burbuja financiera en los mercados de bolsa concernientes a NASDAQ. En enero de
-1994 surgió el popular servicio de hosting gratuito GeoCities posteriormente
-adquirido por Yahoo! en 1999, donde la gente podía crear sus propios sitios web
-personales, el cual paso a ser el tercer sitio web mas visitado en todo
-Internet.
+Al comienzo de la popularidad de Internet todo el mundo quería tener su propia
+pagina web, al punto que hubo una burbuja financiera en los mercados de bolsa
+concernientes a NASDAQ. En enero de 1994 surgió el popular servicio de hosting
+gratuito GeoCities posteriormente adquirido por Yahoo! en 1999, donde la gente
+podía crear sus propios sitios web personales, el cual paso a ser el tercer
+sitio web mas visitado en todo Internet.
 
 Cada pagina era diferente y podías apreciar la forma de ser de quien estaba
 detrás de las lineas de código estéticamente presentadas frente a tu pantalla,
