@@ -94,6 +94,52 @@ que pasare a enumerar algunos principio básicos que constituyen mi fe.
 
 ### Política
 
+No creo en la democracia, imagina darle el poder a la mayoría, la masa ignorante
+y analfabetas políticos fáciles de manipular con propaganda y populismo. La
+democracia por si misma da pie a la instauración de sistemas de gobierno
+nefastos como el Socialismo, Comunismo, Fascismo, etc. Ademas de la
+proliferación de la corrupción y monopolios.
+
+Todos los sistemas de gobierno dentro del espectro político han fallado en la
+práctica y los que no se han podido llevar a la practica fallan en la teoría,
+así que ni si quiera es necesario intentarlo. Fallan no por una mala
+administración o un mal gobernante, si no porque el sistema esta mal desde su
+fundamento.
+
+El único sistema que ha demostrando funcionar, solo siempre y cuando el que este
+a cargo sea un buen líder, es la monarquía. Pero no una monarquía cualquiera, si
+no una en la cual se ponga en funcionamiento el sistema religioso y
+socio-político establecido en la Torah. Por supuesto nada de esto va a pasar
+hasta el regreso del Mashiaj.
+
+A lo que quiero llegar es que la política solo importa cuando eres esclavo y
+necesitaras la política menos de lo que crees. Es decir, si vives en la ciudad
+donde se vigila cada una de tus acciones, si utilizas software propietario y te
+comunicas sólo a través redes sociales, si no tienes habilidades útiles para la
+supervivencia porque tienes algún cartón colgado en la pared y un trabajo
+definitivamente reemplazable, entonces necesitaras mucho la política. La
+cuestión es que tanto los eventos diarios como las tendencias generales de la
+política importan muy poco cuanto más independiente se es del sistema.
+
+Muchos están sumergidos en el afán de hacer algo, involucrándose en algún
+partido o dando la "batalla cultural", pensando que esto se puede revertir de
+alguna manera ¿Qué sentido tiene abandonar por completo el "proceso político"?
+Suena como rendirse. Y suena como rendirse precisamente porque los es, porque el
+"proceso político" es algo interno al sistema. Es por eso que incluso cuando
+aparentemente el "proceso político" hace algo que no le gusta al sistema, como
+elegir a Trump, sus acciones no hacen ningún gran cambio puesto que todos son
+parte del mismo juego. Mucha gente bromea sobre lo que van a hacer cuando se
+apoderen del sistema mediante una revolución, sin darse cuenta que la
+revolución, la idea de un cambio forzado abrupto, es fundamentalmente suya, es
+su idea y si la crees, seguirás golpeando tu cabeza contra una pared.
+
+Salir del sistema es en realidad lo opuesto a rendirse. ¿Por qué piensas que la
+solución es algo como votar o involucrarse en la política? Eso es justo lo que
+quieren que creas, porque estarás jugando su juego, uno que nunca ganaras. Ser
+independiente, vivir fuera de la ciudad y del sistema, es transportarse en el
+tiempo a cuando las cosas estaban más sanas, y al mismo tiempo, transportarse al
+futuro donde el sistema ya no exista y reine el Mashiaj.
+
 # Mis gustos
 
 Ninguno de los tops que haga estarán hechos considerando algún orden en
