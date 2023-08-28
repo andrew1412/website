@@ -29,7 +29,7 @@ export default function Fotos() {
   return (
     <>
       <Head>
-        <title>Galeria - Andrew 1412</title>
+        <title>Galeria</title>
       </Head>
       <body class="bg-black">
         <main class="w-10/12 sm:w-96 mx-auto">

@@ -22,7 +22,7 @@ export default function PostPage(props: PageProps<Post>) {
   return (
     <>
       <Head>
-        <title>{post.title} - Andrew 1412</title>
+        <title>{post.title}</title>
         <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
       <a

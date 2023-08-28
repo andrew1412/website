@@ -24,7 +24,7 @@ export default function Error500() {
   return (
     <>
       <Head>
-        <title>Error 500 - Error interno en el servidor</title>
+        <title>Error 500</title>
       </Head>
       <body class="bg-black">
         <main class="w-10/12 sm:w-96 mx-auto">
