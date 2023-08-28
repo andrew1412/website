@@ -1,5 +1,18 @@
 # My Personal Website
-> https://andrew1412.deno.dev
+> 🌐 https://andrew1412.deno.dev
+
+## Features
+
+- Social links
+- About
+- Banner
+- External links
+- RSS feed
+- Markdown Blog
+- Blog tags
+- Blog RSS
+- Gallery
+- Comment sections
 
 ## 🏅 Credits
 
