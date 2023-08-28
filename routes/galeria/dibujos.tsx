@@ -93,6 +93,26 @@ export default function Fotos() {
             </div>
           </div>
         </main>
+        <footer class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">
+          <script
+            src="https://giscus.app/client.js"
+            data-repo="andrew1412/website"
+            data-repo-id="R_kgDOKAnBjw"
+            data-category="Comentarios"
+            data-category-id="DIC_kwDOKAnBj84CY7Yt"
+            data-mapping="title"
+            data-strict="1"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="dark"
+            data-lang="es"
+            data-loading="lazy"
+            crossOrigin="anonymous"
+            async
+          >
+          </script>
+        </footer>
       </body>
     </>
   );
