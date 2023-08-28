@@ -96,7 +96,7 @@ export default function Fotos() {
                 <a href="/galeria/dibujos">
                   <img
                     class="h-auto max-w-full rounded-lg cursor-pointer group-hover:opacity-50 group-hover:scale-105 transition duration-300 ease-in-out"
-                    src="https://github.com/andrew1412/website/raw/main/static/imagenes/andrew1412.galeria.dibujos.webp"
+                    src="https://github.com/andrew1412/website/raw/main/static/imagenes/andrew1412.galeria.dibujo.webp"
                     alt=""
                     loading="lazy"
                   />
