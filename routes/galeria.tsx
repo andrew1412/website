@@ -45,7 +45,7 @@ export default function Fotos() {
                 <a href="/galeria/mi-gata">
                   <img
                     class="h-auto max-w-full rounded-lg cursor-pointer group-hover:opacity-50 group-hover:scale-105 transition duration-300 ease-in-out"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+                    src="https://github.com/andrew1412/website/raw/main/static/imagenes/andrew1412.galeria.lain.webp"
                     alt=""
                     loading="lazy"
                   />
@@ -96,7 +96,7 @@ export default function Fotos() {
                 <a href="/galeria/dibujos">
                   <img
                     class="h-auto max-w-full rounded-lg cursor-pointer group-hover:opacity-50 group-hover:scale-105 transition duration-300 ease-in-out"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+                    src="https://github.com/andrew1412/website/raw/main/static/imagenes/andrew1412.galeria.dibujos.webp"
                     alt=""
                     loading="lazy"
                   />
