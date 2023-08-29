@@ -10,7 +10,13 @@ import {
   Twitter,
   Youtube,
 } from "preact-feather";
-import { SiGithub, SiMaildotru, SiOdysee, SiYoutube } from "react-icons/si";
+import {
+  SiGithub,
+  SiGooglechat,
+  SiMaildotru,
+  SiOdysee,
+  SiYoutube,
+} from "react-icons/si";
 import SocialLinkWrapper from "./SocialLinkWrapper.tsx";
 
 import type Profile from "../profile/type.ts";
@@ -45,7 +51,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.matrix && (
           <SocialLinkWrapper href={socialAccounts.matrix}>
-            <MessageCircle {...svgProps} />
+            <SiGooglechat {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.facebook && (
