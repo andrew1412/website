@@ -45,7 +45,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/dibujos/andrew1412.galeria.dibujo-6.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -53,7 +53,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/dibujos/andrew1412.galeria.dibujo-5.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -61,7 +61,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/dibujos/andrew1412.galeria.dibujo-4.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -69,7 +69,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/dibujos/andrew1412.galeria.dibujo-3.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -77,7 +77,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/dibujos/andrew1412.galeria.dibujo-2.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -85,7 +85,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/dibujos/andrew1412.galeria.dibujo-1.webp"
                   alt=""
                   loading="lazy"
                 />

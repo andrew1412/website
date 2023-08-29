@@ -45,7 +45,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-12.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -53,7 +53,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-11.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -61,7 +61,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-10.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -69,7 +69,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-9.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -77,7 +77,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-8.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -85,7 +85,55 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-7.webp"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  class="h-auto max-w-full rounded-lg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-6.webp"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  class="h-auto max-w-full rounded-lg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-5.webp"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  class="h-auto max-w-full rounded-lg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-4.webp"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  class="h-auto max-w-full rounded-lg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-3.webp"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  class="h-auto max-w-full rounded-lg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-2.webp"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  class="h-auto max-w-full rounded-lg"
+                  src="https://github.com/andrew1412/website-images/raw/main/images/paisajes/andrew1412.galeria.paisaje-1.webp"
                   alt=""
                   loading="lazy"
                 />
