@@ -7,13 +7,14 @@ import {
   Linkedin,
   Mail,
   MessageCircle,
+  MessageSquare,
   Twitter,
   Youtube,
 } from "preact-feather";
 import {
   SiGithub,
-  SiGooglechat,
   SiMaildotru,
+  SiMatrix,
   SiOdysee,
   SiYoutube,
 } from "react-icons/si";
@@ -51,7 +52,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.matrix && (
           <SocialLinkWrapper href={socialAccounts.matrix}>
-            <SiGooglechat {...svgProps} />
+            <SiMaildotru {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.facebook && (
