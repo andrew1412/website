@@ -116,7 +116,7 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
         <footer class="w-10/12 sm:w-96 mx-auto flex flex-col items-center mt-8 mb-8">
           <p>
             <img
-              src="https://count.ayaya.beauty/get/@home.andrew1412?theme=asoul"
+              src="https://count.ayaya.beauty/get/@home-andrew1412?theme=asoul"
               style="width: 270px;"
               title="Contador de visitas"
               alt=""
