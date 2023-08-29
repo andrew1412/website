@@ -52,10 +52,10 @@
           "format": "uri",
           "pattern": "^(https)://instagram.com/"
         },
-        "linkedin": {
+        "matrix": {
           "type": "string",
           "format": "uri",
-          "pattern": "^(https)://linkedin.com/"
+          "pattern": "^(https)://matrix.to/#/@"
         },
         "odysee": {
           "type": "string",

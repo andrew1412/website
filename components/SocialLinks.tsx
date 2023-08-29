@@ -6,6 +6,7 @@ import {
   Instagram,
   Linkedin,
   Mail,
+  MessageCircle,
   Twitter,
   Youtube,
 } from "preact-feather";
@@ -42,9 +43,9 @@ export default function SocialLinks(
             <SiYoutube {...svgProps} />
           </SocialLinkWrapper>
         )}
-        {socialAccounts?.linkedin && (
-          <SocialLinkWrapper href={socialAccounts.linkedin}>
-            <Linkedin {...svgProps} />
+        {socialAccounts?.matrix && (
+          <SocialLinkWrapper href={socialAccounts.matrix}>
+            <MessageCircle {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.facebook && (

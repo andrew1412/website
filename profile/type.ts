@@ -10,7 +10,7 @@ type Profile = {
     facebook?: string;
     github?: string;
     instagram?: string;
-    linkedin?: string;
+    matrix?: string;
     odysee?: string;
     youtube?: string;
     website?: string;
