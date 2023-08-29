@@ -54,7 +54,6 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
   } = profile;
   const { feed } = data;
 
-  // validate profile configuration
   if (!avatar) {
     return (
       <ProfileMisconfigComponent>
