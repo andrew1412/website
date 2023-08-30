@@ -2,7 +2,7 @@
 
 > 🌐 https://andrew1412.deno.dev
 
-## Features
+## 📋 Features
 
 - Social links
 - About
@@ -14,6 +14,7 @@
 - Blog RSS
 - Gallery
 - Comment sections
+- Maybe more in the future...
 
 ## 🏅 Credits
 

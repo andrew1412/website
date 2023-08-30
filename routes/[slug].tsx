@@ -29,7 +29,7 @@ export default function PostPage(props: PageProps<Post>) {
         class="bg-metal px-2 py-2 rounded-lg fixed top-4 left-4"
         href="/blog"
       >
-        <ArrowLeft size={18} color="#cdc8c2" stroke-width={2.5} />
+        <ArrowLeft size={18} color="#c9d1d9" stroke-width={2.5} />
       </a>
       <body data-color-mode="dark" data-dark-theme="dark" class="bg-black">
         <article class="max-w-screen-md px-4 pt-8 pb-16 md:pt-16 mx-auto">

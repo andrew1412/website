@@ -6,7 +6,7 @@ tags: ["opinion", "tecnologia"]
 snippet: A pesar de la existencia de redes sociales de todo tipo, tener tu propia pagina personal tiene mas sentido que nunca.
 ---
 
-# Articulo aun no finalizado
+### Articulo aun no finalizado
 
 Si te has topado con la pagina personal de alguien alguna vez, lo mas probable
 es que haya sido algo simple, y una vez viste una ya las haz vito todas, una
