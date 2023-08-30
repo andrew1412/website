@@ -12,10 +12,10 @@ export default function Banner(
           <Star size={20} color={"#89b5fa"} />
         </div>
         <div>
-          <h2 class="font-bold leading-tight mb-1" style="color: #d6d3cd;">
+          <h2 class="font-bold leading-tight mb-1 text-white">
             {title}
           </h2>
-          <p class="text-sm" style="color: #b1aaa0;">
+          <p class="text-sm text-silver">
             {text}
           </p>
         </div>

@@ -3,15 +3,15 @@ import { Options } from "$fresh/plugins/twind.ts";
 export default {
   theme: {
     colors: {
-      "white": "#e8e6e3",
+      "white": "#c9d1d9",
       "gray": "#cecac3",
       "black": "#0d1117",
       "metal": "#222833",
-      "silver": "#cdc8c2",
+      "silver": "#9ca4aa",
       "blue": "#374052",
-      "plate": "#d6d3cd",
-      "opaque": "#b1aaa0",
-      "cream": "#afa99e",
+      "plate": "#c9d1d9",
+      "opaque": "#91979c",
+      "cream": "#91979c",
     },
   },
   selfURL: import.meta.url,

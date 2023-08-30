@@ -36,7 +36,7 @@ export default function PostPage(props: PageProps<Post>) {
           <div class="mx-auto max-w-screen-sm max-w-lg w-full mt-4 sm:mt-0">
             {post.coverHtml && <img src={post.coverHtml} alt={post.title} />}
           </div>
-          <h1 class="mt-6 text-5xl font-bold" style="color: white">
+          <h1 class="mt-6 text-5xl font-bold text-white">
             {post.title}
           </h1>
           <div class="mt-8">

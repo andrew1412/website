@@ -8,13 +8,12 @@ export default function Links(
   return (
     <li>
       <a
-        class="flex justify-between bg-metal rounded-lg px-6 py-3 w-full items-center"
-        style="color: white"
+        class="flex justify-between bg-metal rounded-lg px-6 py-3 w-full items-center text-white"
         href={link.url}
         rel="noopener noreferrer"
       >
         <span>{link.title}</span>
-        <ChevronRight size={18} style="color: white" />
+        <ChevronRight size={18} style="color: #c9d1d9" />
       </a>
     </li>
   );

@@ -29,7 +29,7 @@ export default function SocialLinks(
 
   const svgProps = {
     size: 18,
-    color: "#cdc8c2",
+    color: "#c9d1d9",
   };
 
   return (

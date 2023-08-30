@@ -53,7 +53,7 @@ export default function Blog(props: PageProps<Post[]>) {
               {readme && <ReadmeButtonComponent />}
             </div>
             <div class="flex flex-col items-center w-full p-4 mt-4 text-sm">
-              <div class="-m-4 flex flex-row flex-wrap text-gray font-bold">
+              <div class="-m-4 flex flex-row flex-wrap text-white font-bold">
                 <a
                   class="m-2 py-1 px-2 hover:underline"
                   href="/blog/analisis"
@@ -121,7 +121,7 @@ export default function Blog(props: PageProps<Post[]>) {
                 ? posts.map((post) => <PostCard post={post} />)
                 : (
                   <div class="flex flex-col items-center space-y-1 py-8">
-                    <FileText size={32} color="#cdc8c2" />
+                    <FileText size={32} color="#c9d1d9" />
                     <h2 class="text-sm font-bold text-opaque leading-tight mb-1">
                       No hay publicaciones todavia.
                     </h2>
@@ -154,7 +154,7 @@ function PostCard(props: { post: Post }) {
           <p>
             <span class="text-plate">{post.author}</span>
           </p>
-          <div class="flow-root mt-8 text-sm text-gray">
+          <div class="flow-root mt-8 text-sm text-white">
             <Tags tags={post.tags} />
           </div>
         </div>
@@ -162,7 +162,7 @@ function PostCard(props: { post: Post }) {
           <h3 class="text(3xl white) font-bold">
             {post.title}
           </h3>
-          <div class="mt-4 text-plate">
+          <div class="mt-4 text-white">
             {post.snippet}
           </div>
         </a>

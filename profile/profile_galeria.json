@@ -7,13 +7,12 @@
     { "url": "/galeria", "title": "Galeria" },
     { "url": "https://example.com", "title": "Fotos" }
   ],
-  "bio": "Albums",
+  "bio": "📷 Albums",
   "location": "Chile",
   "socialAccounts": {
     "github": "https://github.com/andrew1412",
     "youtube": "https://youtube.com/c/andrew1412",
-    "twitter": "https://twitter.com/",
-    "mail": "unserhumanomas@proton.me"
+    "twitter": "https://twitter.com/"
   },
   "banner": {
     "title": "Nuevo blog!",

@@ -35,7 +35,7 @@ export default function Feed(
             options,
           )}
         </h4>
-        <span class="block absolute top-0 right-0 p-3" style="color: white">
+        <span class="block absolute top-0 right-0 p-3" style="color: #c9d1d9">
           <ExternalLink size={22} />
         </span>
       </div>
