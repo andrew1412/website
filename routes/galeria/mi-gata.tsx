@@ -36,7 +36,7 @@ export default function Fotos() {
         class="bg-metal px-2 py-2 rounded-lg fixed top-4 left-4"
         href="/galeria"
       >
-        <ArrowLeft size={18} color="#cdc8c2" stroke-width={2.5} />
+        <ArrowLeft size={18} color="#c9d1d9" stroke-width={2.5} />
       </a>
       <body class="bg-black">
         <main class="w-10/12 mx-auto">
