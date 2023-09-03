@@ -158,6 +158,7 @@ hacer un top de favoritos se vería así:
 - Made in Abyss
 - Steins Gate
 - Vinland Saga
+- Clannad
 - Bocchi the Rock
 - Ichigo Mashimaro
 - Nichijou
@@ -208,6 +209,7 @@ que no tiene sentido estar repitiendo el nombre de un mismo juego todo el rato:
 - Starbound
 - Metro 2033
 - Doom 2
+- HoloCure
 
 # Informática
 
