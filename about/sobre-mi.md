@@ -275,8 +275,8 @@ Celular
 
 Con el paso del tiempo y de forma completamente autodidacta he aprendido a usar
 varios lenguajes de programación, runetimes, frameworks y librerias, todo
-enfocado al desarrollo web. No podría decir que soy un experto en ninguno de
-ellos y todavía me falta mucho por aprender. Algunas de las herramientas que
+enfocado al desarrollo web. Aunque No podría decir que soy un experto en ninguno
+de ellos y todavía me falta mucho por aprender. Algunas de las herramientas que
 manejo son:
 
 - HTML
