@@ -32,20 +32,6 @@ algo que hoy se conserva en sitios como NeoCities, que apelan a esa nostalgia de
 un Internet que ya no existe, o que para algunos nunca existió, ya que muchos de
 sus usuarios ni si quiera habían nacido para cuando GeoCieties era relevante.
 
-(Que por cierto, hace poco me intente crear una cuenta en NeoCities en la cual
-cree una pagina que redirigía a esta y al parecer fui baneado de su sitio. Antes
-de hacer algo leí sus términos y condiciones precisamente para asegurarme de no
-estar haciendo nada que no estuviera permitido y no encontré nada en contra de
-redirigir a otros sitios web. No paso ni una hora antes de que se me cerrara la
-sesión y perdiera acceso a mi cuenta, no pudiendo recuperarla ni cambiar la
-contraseña, ademas de que mi pagina dejo de aparecer en el listado de sitios y
-el link dejo de servir. Contacte al soporte y hasta el día de hoy no he tenido
-respuesta, así que asumo que me banearon por redirigir a otro sitio, cosa que no
-esta prohibida en sus términos, o porque no les gusto el contenido de mi pagina,
-cosa que no me sorprendería pero me parece de muy mal proceder tratándose de un
-sitio que supuestamente respeta la libertad de expresión. De todas formas no
-volveré a visitar NeoCities y si me preguntan, no lo recomiendo en absoluto.)
-
 Posteriormente y con el surgimiento de las redes sociales esta forma de
 expresión se fue gradual y silenciosamente perdiendo, ahora no hay motivo
 aparente para querer abrir un sito web personal, si quieres publicar algo lo
