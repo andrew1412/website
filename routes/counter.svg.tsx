@@ -47,16 +47,16 @@ export const handler = async (
         alignItems: "center",
         width: `${width}px`,
         height: `${height}px`,
-        border: "3px solid #25262b",
+        border: "3px solid #222833",
         borderRadius: `${height / 6}px`,
-        color: "#f1f3f5",
-        background: "#101113",
+        color: "#c9d1d9",
+        background: "#0d1117",
         fontSize: `${16 * 2.25}px`,
       }}
     >
       <span
         style={{
-          color: "#2c2e33",
+          color: "#91979c",
         }}
       >
         {pad}
