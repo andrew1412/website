@@ -17,13 +17,14 @@ import * as $11 from "./routes/blog/politica.tsx";
 import * as $12 from "./routes/blog/reflexiones.tsx";
 import * as $13 from "./routes/blog/religion.tsx";
 import * as $14 from "./routes/blog/tecnologia.tsx";
-import * as $15 from "./routes/feed.ts";
-import * as $16 from "./routes/galeria.tsx";
-import * as $17 from "./routes/galeria/dibujos.tsx";
-import * as $18 from "./routes/galeria/fumos.tsx";
-import * as $19 from "./routes/galeria/mi-gata.tsx";
-import * as $20 from "./routes/galeria/paisajes.tsx";
-import * as $21 from "./routes/index.tsx";
+import * as $15 from "./routes/counter.svg.tsx";
+import * as $16 from "./routes/feed.ts";
+import * as $17 from "./routes/galeria.tsx";
+import * as $18 from "./routes/galeria/dibujos.tsx";
+import * as $19 from "./routes/galeria/fumos.tsx";
+import * as $20 from "./routes/galeria/mi-gata.tsx";
+import * as $21 from "./routes/galeria/paisajes.tsx";
+import * as $22 from "./routes/index.tsx";
 import * as $$0 from "./islands/Tabs.tsx";
 
 const manifest = {
@@ -43,13 +44,14 @@ const manifest = {
     "./routes/blog/reflexiones.tsx": $12,
     "./routes/blog/religion.tsx": $13,
     "./routes/blog/tecnologia.tsx": $14,
-    "./routes/feed.ts": $15,
-    "./routes/galeria.tsx": $16,
-    "./routes/galeria/dibujos.tsx": $17,
-    "./routes/galeria/fumos.tsx": $18,
-    "./routes/galeria/mi-gata.tsx": $19,
-    "./routes/galeria/paisajes.tsx": $20,
-    "./routes/index.tsx": $21,
+    "./routes/counter.svg.tsx": $15,
+    "./routes/feed.ts": $16,
+    "./routes/galeria.tsx": $17,
+    "./routes/galeria/dibujos.tsx": $18,
+    "./routes/galeria/fumos.tsx": $19,
+    "./routes/galeria/mi-gata.tsx": $20,
+    "./routes/galeria/paisajes.tsx": $21,
+    "./routes/index.tsx": $22,
   },
   islands: {
     "./islands/Tabs.tsx": $$0,

@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0.5rem 0 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+h4 {
+  font-size: 1.777rem;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+p {
+  margin: 0.25rem 0 1rem;
+}
+
+pre {
+  margin: 0.5rem 0 1.25rem;
+}
