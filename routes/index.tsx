@@ -113,10 +113,10 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
             </div>
           </div>
         </main>
-        <footer class="w-10/12 sm:w-96 mx-auto flex flex-col items-center mt-8 mb-8">
+        <footer class="w-10/12 sm:w-96 mx-auto flex flex-col items-center mt-4 mb-4">
           <p>
             <img
-              src="https://count.ayaya.beauty/get/@andrew1412.inicio?theme=asoul"
+              src="https://web-counter.deno.dev/counter.svg"
               style="width: 270px;"
               title="Contador de visitas"
               alt=""
