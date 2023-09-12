@@ -116,7 +116,7 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
         <footer class="w-10/12 sm:w-96 mx-auto flex flex-col items-center mt-4 mb-4">
           <p>
             <img
-              src="https://web-counter.deno.dev/counter.svg"
+              src="https://andrew1412-counter.deno.dev/counter.svg"
               style="width: 270px;"
               title="Contador de visitas"
               alt=""
