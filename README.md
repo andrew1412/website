@@ -22,7 +22,7 @@
 - [Fresh Blog Example](https://github.com/denoland/fresh-blog-example)
 - [RSS Generator](https://github.com/jpmonette/feed)
 - [Fresh SEO](https://github.com/xstevenyung/fresh-seo)
-- [Moe Counter](https://github.com/journey-ad/Moe-Counter)
 - [Giscus](https://github.com/giscus/giscus)
+- [Visit Counter](https://github.com/anasrar/fresh-hit-counter/tree/main)
 
 [![Made with Fresh](https://fresh.deno.dev/fresh-badge.svg)](https://fresh.deno.dev)
