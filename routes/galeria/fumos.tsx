@@ -45,7 +45,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-12.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-12.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -53,7 +53,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-11.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-11.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -61,7 +61,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-10.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-10.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -69,7 +69,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-9.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-9.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -77,7 +77,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-8.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-8.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -85,7 +85,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-7.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-7.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -93,7 +93,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-6.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-6.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -101,7 +101,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-5.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-5.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -109,7 +109,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-4.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-4.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -117,7 +117,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-3.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-3.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -125,7 +125,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-2.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-2.webp"
                   alt=""
                   loading="lazy"
                 />
@@ -133,7 +133,7 @@ export default function Fotos() {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://github.com/andrew1412/website-images/raw/main/images/fumos/andrew1412.galeria.fumo-1.webp"
+                  src="https://raw.githubusercontent.com/andrew1412/website/main/static/galeria/fumos/andrew1412.galeria.fumo-1.webp"
                   alt=""
                   loading="lazy"
                 />
