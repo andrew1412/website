@@ -142,56 +142,18 @@ futuro donde el sistema ya no exista y reine el Mashiaj.
 
 # Mis gustos
 
-Ninguno de los tops que haga estarán hechos considerando algún orden en
-particular, como de mayor a menor o algo por el estilo, simplemente los estaré
-mencionando
-
-### Anime
+### Anime y Manga
 
 Principalmente me gusta ver Seinens que aborden temas complejos y Moe para
 relajarme un rato y alegrarme el día, aunque igual veo uno que otro Shonen de
-vez en cuando a pesar de no ser un genero de mi agrado. Ahora, si tuviera que
-hacer un top de favoritos se vería así:
-
-- Serial Experiments Lain
-- Evangelion
-- Made in Abyss
-- Steins Gate
-- Vinland Saga
-- Clannad
-- Bocchi the Rock
-- Ichigo Mashimaro
-- Nichijou
-- Psycho Pass
-- Cowboy Bebop
-- Lucky Star
-- Haibane Renmei
-- Madoka
-- Girls Last Tour
-- Welcome to the NHK
-- Kino no Tabi
-- Non Non Biyori
-
-### Manga
+vez en cuando a pesar de no ser un genero de mi agrado.
 
 En cuanto a mangas la cosa no cambia mucho respectó de mis preferencias en
 anime, pero si suelo ser mas exigente, si el dibujo no me gusta o la historia se
-pone aburrida lo dejo rápidamente. Debo admitir si que soy fan de las obras de
-Inio Asano y Tatsuki Fujimoto, así que el top va a tener varias obras suyas. Me
-voy a limitar a listar solo mangas que no tengan adaptación a anime al momento
-de escribir esto:
+pone aburrida lo dejo rápidamente. Debo admitir si, que soy fan de las obras de
+Inio Asano y Tatsuki Fujimoto.
 
-- Oyasumi Punpun
-- Gunnm (Battle Angel: Alita)
-- Shimeji Simulation
-- The Horizon
-- Takopi no Genzai
-- Fire Punsh
-- Reiraku
-- Aku no Hana
-- Dead Dead Demons Dededededestruction
-- Look Back
-- Solanin
+Si estas interesado en algo mas detallado puedes visitar mi [AniList](https://anilist.co/user/Andrew1412/)
 
 ### Vídeo Juegos
 
