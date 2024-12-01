@@ -37,30 +37,30 @@
           "format": "uri",
           "pattern": "^(https)://dribbble.com/"
         },
-        "facebook": {
+        "steam": {
           "type": "string",
           "format": "uri",
-          "pattern": "^(https)://facebook.com/"
+          "pattern": "^(https)://steamcommunity.com/"
         },
         "github": {
           "type": "string",
           "format": "uri",
           "pattern": "^(https)://github.com/"
         },
-        "instagram": {
+        "anilist": {
           "type": "string",
           "format": "uri",
-          "pattern": "^(https)://instagram.com/"
+          "pattern": "^(https)://anilist.co"
         },
         "matrix": {
           "type": "string",
           "format": "uri",
-          "pattern": "^(https)://matrix.to/#/@"
+          "pattern": "^(https)://simplex.chat/"
         },
-        "odysee": {
+        "twitter": {
           "type": "string",
           "format": "uri",
-          "pattern": "^(https)://odysee.com/"
+          "pattern": "^(https)://x.com/"
         },
         "youtube": {
           "type": "string",
