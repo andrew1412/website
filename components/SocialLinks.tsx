@@ -38,14 +38,14 @@ export default function SocialLinks(
   return (
     <div>
       <div class="flex justify-center mb-6 space-x-2">
-        {socialAccounts?.twitter && (
-          <SocialLinkWrapperComponent href={socialAccounts.twitter}>
-            <Twitter {...svgProps} />
-          </SocialLinkWrapperComponent>
+          {socialAccounts?.odysee && (
+          <SocialLinkWrapper href={socialAccounts.odysee}>
+            <SiOdysee {...svgProps} />
+          </SocialLinkWrapper>
         )}
         {socialAccounts?.instagram && (
           <SocialLinkWrapper href={socialAccounts.instagram}>
-            <SiAnilist {...svgProps} />
+            <Instagram {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.youtube && (
@@ -55,12 +55,12 @@ export default function SocialLinks(
         )}
         {socialAccounts?.matrix && (
           <SocialLinkWrapper href={socialAccounts.matrix}>
-            <MessageCircle {...svgProps} />
+            <SiMaildotru {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.facebook && (
           <SocialLinkWrapper href={socialAccounts.facebook}>
-            <SiSteam {...svgProps} />
+           <Facebook {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.github && (
