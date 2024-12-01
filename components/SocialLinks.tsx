@@ -16,6 +16,10 @@ import {
   SiMaildotru,
   SiMatrix,
   SiOdysee,
+  SiAnilist,
+  SiDiscord,
+  SiSteam,
+  SiX,
   SiYoutube,
 } from "react-icons/si";
 import SocialLinkWrapper from "./SocialLinkWrapper.tsx";
@@ -35,14 +39,14 @@ export default function SocialLinks(
   return (
     <div>
       <div class="flex justify-center mb-6 space-x-2">
-        {socialAccounts?.odysee && (
-          <SocialLinkWrapper href={socialAccounts.odysee}>
-            <SiOdysee {...svgProps} />
-          </SocialLinkWrapper>
+        {socialAccounts?.twitter && (
+          <SocialLinkWrapperComponent href={socialAccounts.twitter}>
+            <SiX {...svgProps} />
+          </SocialLinkWrapperComponent>
         )}
-        {socialAccounts?.instagram && (
-          <SocialLinkWrapper href={socialAccounts.instagram}>
-            <Instagram {...svgProps} />
+        {socialAccounts?.anilist && (
+          <SocialLinkWrapper href={socialAccounts.anilist}>
+            <SiAnilist {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.youtube && (
@@ -52,12 +56,12 @@ export default function SocialLinks(
         )}
         {socialAccounts?.matrix && (
           <SocialLinkWrapper href={socialAccounts.matrix}>
-            <SiMaildotru {...svgProps} />
+            <MessageCircle {...svgProps} />
           </SocialLinkWrapper>
         )}
-        {socialAccounts?.facebook && (
-          <SocialLinkWrapper href={socialAccounts.facebook}>
-            <Facebook {...svgProps} />
+        {socialAccounts?.steam && (
+          <SocialLinkWrapper href={socialAccounts.steam}>
+            <SiSteam {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.github && (
