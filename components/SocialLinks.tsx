@@ -19,7 +19,7 @@ import {
   SiAnilist,
   SiDiscord,
   SiSteam,
-  SiX ,
+  SiTwitter,
   SiYoutube,
 } from "react-icons/si";
 import SocialLinkWrapper from "./SocialLinkWrapper.tsx";
@@ -41,7 +41,7 @@ export default function SocialLinks(
       <div class="flex justify-center mb-6 space-x-2">
         {socialAccounts?.twitter && (
           <SocialLinkWrapperComponent href={socialAccounts.twitter}>
-            <SiX {...svgProps} />
+            <SiTwitter {...svgProps} />
           </SocialLinkWrapperComponent>
         )}
         {socialAccounts?.anilist && (
