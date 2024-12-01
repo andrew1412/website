@@ -19,7 +19,7 @@ import {
   SiAnilist,
   SiDiscord,
   SiSteam,
-  SiX,
+  SiX ,
   SiYoutube,
 } from "react-icons/si";
 import SocialLinkWrapper from "./SocialLinkWrapper.tsx";
