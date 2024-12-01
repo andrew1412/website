@@ -38,8 +38,8 @@ export default function SocialLinks(
   return (
     <div>
       <div class="flex justify-center mb-6 space-x-2">
-          {socialAccounts?.odysee && (
-          <SocialLinkWrapper href={socialAccounts.odysee}>
+          {socialAccounts?.twitter && (
+          <SocialLinkWrapper href={socialAccounts.twitter}>
             <SiOdysee {...svgProps} />
           </SocialLinkWrapper>
         )}
