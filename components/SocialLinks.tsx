@@ -43,8 +43,8 @@ export default function SocialLinks(
             <Twitter {...svgProps} />
           </SocialLinkWrapperComponent>
         )}
-        {socialAccounts?.anilist && (
-          <SocialLinkWrapper href={socialAccounts.anilist}>
+        {socialAccounts?.instagram && (
+          <SocialLinkWrapper href={socialAccounts.instagram}>
             <SiAnilist {...svgProps} />
           </SocialLinkWrapper>
         )}
@@ -58,8 +58,8 @@ export default function SocialLinks(
             <MessageCircle {...svgProps} />
           </SocialLinkWrapper>
         )}
-        {socialAccounts?.steam && (
-          <SocialLinkWrapper href={socialAccounts.steam}>
+        {socialAccounts?.facebook && (
+          <SocialLinkWrapper href={socialAccounts.facebook}>
             <SiSteam {...svgProps} />
           </SocialLinkWrapper>
         )}
