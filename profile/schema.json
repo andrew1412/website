@@ -55,7 +55,7 @@
         "matrix": {
           "type": "string",
           "format": "uri",
-          "pattern": "^(https)://simplex.chat/contact/#/?v="
+          "pattern": "^(https)://simplex.chat/contact/#/"
         },
         "twitter": {
           "type": "string",
