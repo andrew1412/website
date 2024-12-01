@@ -37,7 +37,7 @@
           "format": "uri",
           "pattern": "^(https)://dribbble.com/"
         },
-        "steam": {
+        "facebook": {
           "type": "string",
           "format": "uri",
           "pattern": "^(https)://steamcommunity.com/"
@@ -47,7 +47,7 @@
           "format": "uri",
           "pattern": "^(https)://github.com/"
         },
-        "anilist": {
+        "instagram": {
           "type": "string",
           "format": "uri",
           "pattern": "^(https)://anilist.co"
