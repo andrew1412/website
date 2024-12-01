@@ -60,7 +60,7 @@
         "twitter": {
           "type": "string",
           "format": "uri",
-          "pattern": "^(https)://x.com/"
+          "pattern": "^(https)://twitter.com/"
         },
         "youtube": {
           "type": "string",
