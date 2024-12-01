@@ -20,6 +20,7 @@ import {
   SiDiscord,
   SiSteam,
   SiYoutube,
+  SiTwitter,
 } from "react-icons/si";
 import SocialLinkWrapper from "./SocialLinkWrapper.tsx";
 
@@ -40,12 +41,12 @@ export default function SocialLinks(
       <div class="flex justify-center mb-6 space-x-2">
           {socialAccounts?.twitter && (
           <SocialLinkWrapper href={socialAccounts.twitter}>
-            <SiOdysee {...svgProps} />
+            <SiTwitter {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.instagram && (
           <SocialLinkWrapper href={socialAccounts.instagram}>
-            <Instagram {...svgProps} />
+            <SiAnilist {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.youtube && (
@@ -60,7 +61,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.facebook && (
           <SocialLinkWrapper href={socialAccounts.facebook}>
-           <Facebook {...svgProps} />
+           <SiSteam {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.github && (
