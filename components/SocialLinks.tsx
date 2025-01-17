@@ -41,7 +41,7 @@ export default function SocialLinks(
       <div class="flex justify-center mb-6 space-x-2">
           {socialAccounts?.twitter && (
           <SocialLinkWrapper href={socialAccounts.twitter}>
-            <SiTwitter {...svgProps} />
+            <SiDiscord {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.instagram && (
