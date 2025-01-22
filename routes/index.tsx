@@ -111,14 +111,14 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
               <TabsIsland links={links} feed={feed} />
               <a 
                 href="https://www.buymeacoffee.com/andrew1412"
-                class="flex flex-wrap w-full"
+                class="flex flex-wrap w-full  mt-2"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
               <img 
               src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=andrew1412&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" 
-              class="flex w-full mt-2"
-              style="height: 30px;"
+              class="flex w-full"
+              sizes="352x30"
               />
              </a>
             </div>
