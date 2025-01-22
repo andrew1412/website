@@ -6,7 +6,7 @@ export default function Banner(
   const { title, text } = props;
 
   return (
-    <div class="rounded-2xl px-4 py-4 mb-4 min-w-full">
+    <div class="mb-4 min-w-full">
       <a 
       href="https://www.buymeacoffee.com/andrew1412"
       class="flex flex-wrap w-full mt-2"
@@ -14,7 +14,7 @@ export default function Banner(
       rel="noopener noreferrer"
      >
      <img 
-      src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=andrew1412&button_colour=374052&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00" 
+      src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=andrew1412&button_colour=374052&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=89b5fa" 
       class="flex w-full"
      />
      </a>
