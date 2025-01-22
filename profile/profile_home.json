@@ -3,9 +3,8 @@
   "avatar": "https://github.com/andrew1412/website/raw/main/static/logos/andrew1412.pfp.webp",
   "username": "Andrew 1412",
   "links": [
-    { "url": "https://buymeacoffee.com/andrew1412", "title": "☕ Buy me a coffee" },
-    { "url": "/blog", "title": "Blog" },
-    { "url": "/galeria", "title": "Galeria" }
+    { "url": "/blog", "title": "🖋️ Blog" },
+    { "url": "/galeria", "title": "📷 Galeria" }
   ],
   "bio": "🐈‍⬛ Vtuber",
   "location": "Chile",
@@ -18,7 +17,7 @@
   },
   "banner": {
     "title": "Group chat!",
-    "text": "I opened a Discord server and a SimpleX group whose link is on the Discord."
+    "text": "Join the Discord server."
   },
   "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZfSAkMNwkQBzzE8sm1gr9g",
   "readme": "https://raw.githubusercontent.com/andrew1412/website/main/about/sobre-mi.md"
