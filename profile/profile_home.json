@@ -3,6 +3,7 @@
   "avatar": "https://github.com/andrew1412/website/raw/main/static/logos/andrew1412.pfp.webp",
   "username": "Andrew 1412",
   "links": [
+    { "url": "https://buymeacoffee.com/andrew1412", "title": "☕ Buy me a coffee" },
     { "url": "/blog", "title": "Blog" },
     { "url": "/galeria", "title": "Galeria" }
   ],
