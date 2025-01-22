@@ -6,7 +6,9 @@ export default function Banner(
   const { title, text } = props;
 
   return (
-    <a 
+    <div class="rounded-2xl px-4 py-4 mb-4 min-w-full bg-blue">
+      <div class="flex space-x-4">
+        <a 
      href="https://www.buymeacoffee.com/andrew1412"
      class="flex flex-wrap w-full mt-2"
      target="_blank"
@@ -17,8 +19,6 @@ export default function Banner(
      class="flex w-full"
      />
     </a>
-    <div class="rounded-2xl px-4 py-4 mb-4 min-w-full bg-blue">
-      <div class="flex space-x-4">
         <div>
           <Star size={20} color={"#89b5fa"} />
         </div>
