@@ -9,7 +9,7 @@ export default function Banner(
     <div class="mb-4 min-w-full">
       <a 
       href="https://www.buymeacoffee.com/andrew1412"
-      class="flex flex-wrap w-full mt-2"
+      class="flex flex-wrap w-full"
       target="_blank"
       rel="noopener noreferrer"
      >
