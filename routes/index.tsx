@@ -116,7 +116,7 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
                 rel="noopener noreferrer"
                 >
               <img 
-              src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=andrew1412&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" 
+              src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=andrew1412&button_colour=374052&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00" 
               class="flex w-full"
               />
              </a>
