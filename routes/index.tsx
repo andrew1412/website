@@ -102,15 +102,7 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
 
           <p>
             <a href="https://www.buymeacoffee.com/andrew1412">
-             <img 
-              src="https://img.buymeacoffee.com/button-api/?
-              text=Buy me a coffee&emoji=☕&
-              slug=andrew1412&
-              button_colour=FFDD00&
-              font_colour=000000&
-              font_family=Poppins&out
-              line_colour=000000&
-              coffee_colour=ffffff" />
+             <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=andrew1412&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" />
             </a>
           </p>
               
@@ -129,19 +121,6 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
           </div>
         </main>
         <footer class="w-10/12 sm:w-96 mx-auto flex flex-col items-center mt-4 mb-4">
-          <p>
-            <a href="https://www.buymeacoffee.com/andrew1412">
-             <img 
-              src="https://img.buymeacoffee.com/button-api/?
-              text=Buy me a coffee&emoji=☕&
-              slug=andrew1412&
-              button_colour=FFDD00&
-              font_colour=000000&
-              font_family=Poppins&out
-              line_colour=000000&
-              coffee_colour=ffffff" />
-            </a>
-          </p>
           <p>
             <img
               src="https://andrew1412.deno.dev/counter.svg"
