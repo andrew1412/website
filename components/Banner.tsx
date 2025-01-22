@@ -6,7 +6,7 @@ export default function Banner(
   const { title, text } = props;
 
   return (
-    <div class="">
+    <div class="rounded-2xl px-4 py-4 mb-4 min-w-full">
       <a 
       href="https://www.buymeacoffee.com/andrew1412"
       class="flex flex-wrap w-full mt-2"
