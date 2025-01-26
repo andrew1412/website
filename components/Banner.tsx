@@ -18,7 +18,8 @@ export default function Banner(
       class="flex w-full"
      />
      </a>
-      <div href="https://streamelements.com/andrew1412/tip" class="flex space-x-4">
+      <a href="https://streamelements.com/andrew1412/tip">
+      <div class="flex space-x-4">
         <div>
           <Star size={20} color={"#89b5fa"} />
         </div>
@@ -31,6 +32,7 @@ export default function Banner(
           </p>
         </div>
       </div>
+        </a>
     </div>
   );
 }
