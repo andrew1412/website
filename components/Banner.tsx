@@ -1,5 +1,5 @@
 import { Star } from "preact-feather";
-import { Dollar } from "preact-feather";
+import { SiPaypal } from "react-icons/si";
 
 export default function Banner(
   props: { title: string; text: string },
@@ -11,7 +11,7 @@ export default function Banner(
       <a href="https://streamelements.com/andrew1412/tip" target="_blank" rel="noopener noreferrer">
        <div class="flex space-x-4">
          <div>
-           <Dollar size={20} color={"#89b5fa"} />
+           <SiPaypal size={20} color={"#89b5fa"} />
          </div>
          <div>
            <h2 class="font-bold leading-tight mb-1 text-white">
