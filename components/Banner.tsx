@@ -1,4 +1,5 @@
 import { Star } from "preact-feather";
+import { dollar-sign } from "preact-feather";
 
 export default function Banner(
   props: { title: string; text: string },
@@ -10,7 +11,7 @@ export default function Banner(
       <a href="https://streamelements.com/andrew1412/tip" target="_blank" rel="noopener noreferrer">
        <div class="flex space-x-4">
          <div>
-           <Star size={20} color={"#89b5fa"} />
+           <dollar-sign size={20} color={"#89b5fa"} />
          </div>
          <div>
            <h2 class="font-bold leading-tight mb-1 text-white">
