@@ -14,7 +14,7 @@ export default function Banner(
       rel="noopener noreferrer"
      >
      <img 
-      src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=andrew1412&button_colour=374052&font_colour=#c9d1d9&font_family=Lato&outline_colour=#c9d1d9&coffee_colour=89b5fa" 
+      src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=andrew1412&button_colour=374052&font_colour=c9d1d9&font_family=Lato&outline_colour=c9d1d9&coffee_colour=89b5fa" 
       class="flex w-full"
      />
      </a>
