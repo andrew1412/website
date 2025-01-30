@@ -66,7 +66,6 @@ export default function SocialLinks(
             <SiMaildotru {...svgProps} />
           </SocialLinkWrapper>
         )}
-        
         {socialAccounts?.github && (
           <SocialLinkWrapper href={socialAccounts.github}>
             <SiGithub {...svgProps} />
