@@ -40,7 +40,17 @@ export default function SocialLinks(
   return (
     <div>
       <div class="flex justify-center mb-6 space-x-2">
-          {socialAccounts?.twitter && (
+        {socialAccounts?.youtube && (
+          <SocialLinkWrapper href={socialAccounts.youtube}>
+            <SiYoutube {...svgProps} />
+          </SocialLinkWrapper>
+        )}
+        {socialAccounts?.facebook && (
+          <SocialLinkWrapper href={socialAccounts.facebook}>
+           <SiTwitch {...svgProps} />
+          </SocialLinkWrapper>
+        )}
+        {socialAccounts?.twitter && (
           <SocialLinkWrapper href={socialAccounts.twitter}>
             <SiDiscord {...svgProps} />
           </SocialLinkWrapper>
@@ -50,21 +60,13 @@ export default function SocialLinks(
             <SiAnilist {...svgProps} />
           </SocialLinkWrapper>
         )}
-        {socialAccounts?.youtube && (
-          <SocialLinkWrapper href={socialAccounts.youtube}>
-            <SiYoutube {...svgProps} />
-          </SocialLinkWrapper>
-        )}
+        
         {socialAccounts?.matrix && (
           <SocialLinkWrapper href={socialAccounts.matrix}>
             <SiMaildotru {...svgProps} />
           </SocialLinkWrapper>
         )}
-        {socialAccounts?.facebook && (
-          <SocialLinkWrapper href={socialAccounts.facebook}>
-           <SiTwitch {...svgProps} />
-          </SocialLinkWrapper>
-        )}
+        
         {socialAccounts?.github && (
           <SocialLinkWrapper href={socialAccounts.github}>
             <SiGithub {...svgProps} />
