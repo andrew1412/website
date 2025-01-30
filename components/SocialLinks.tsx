@@ -20,6 +20,7 @@ import {
   SiDiscord,
   SiSteam,
   SiYoutube,
+  SiTwitch,
   SiTwitter,
 } from "react-icons/si";
 import SocialLinkWrapper from "./SocialLinkWrapper.tsx";
@@ -61,7 +62,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.facebook && (
           <SocialLinkWrapper href={socialAccounts.facebook}>
-           <SiSteam {...svgProps} />
+           <SiTwitch {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.github && (
