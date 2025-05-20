@@ -90,7 +90,7 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
         <title>Andrew 1412</title>
         <meta
           name="description"
-          content="Sitio Web y Blog personal de Andrew1412, un Vtuber que quiere compartir sus ideas en internet. Links a YouTube, Odysee y Github de Andrew 1412."
+          content="Website, personal blog and gallery of Andrew1412 a Kahanist Weeb, a Vtuber who wants to share his ideas on the internet. Links to YouTube, Twitch, Rumble, Anilist and Discord of Andrew 1412 a KahanistWeeb."
         />
       </Head>
       <body class="bg-black">
@@ -117,7 +117,7 @@ export default function Home({ data }: PageProps<HandlerProps | null>) {
             <img
               src="https://andrew1412.deno.dev/counter.svg"
               style="width: 270px;"
-              title="Contador de visitas"
+              title="visit counter"
               alt=""
             />
           </p>
