@@ -52,7 +52,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.twitter && (
           <SocialLinkWrapper href={socialAccounts.twitter}>
-            <Stwitter {...svgProps} />
+            <Sitwitter {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.instagram && (
