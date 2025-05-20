@@ -52,12 +52,12 @@ export default function SocialLinks(
         )}
         {socialAccounts?.twitter && (
           <SocialLinkWrapper href={socialAccounts.twitter}>
-            <SiDiscord {...svgProps} />
+            <SiRumble {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.instagram && (
           <SocialLinkWrapper href={socialAccounts.instagram}>
-            <SiAnilist {...svgProps} />
+            <SiDiscord {...svgProps} />
           </SocialLinkWrapper>
         )}
         
@@ -68,7 +68,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.github && (
           <SocialLinkWrapper href={socialAccounts.github}>
-            <SiGithub {...svgProps} />
+            <SiAnilist {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.dribbble && (
