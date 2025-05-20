@@ -45,12 +45,12 @@
         "github": {
           "type": "string",
           "format": "uri",
-          "pattern": "^(https)://github.com/"
+          "pattern": "^(https)://anilist.co"
         },
         "instagram": {
           "type": "string",
           "format": "uri",
-          "pattern": "^(https)://anilist.co"
+          "pattern": "^(https)://discord.gg"
         },
         "matrix": {
           "type": "string",
