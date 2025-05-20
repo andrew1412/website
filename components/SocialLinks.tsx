@@ -55,7 +55,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.twitter && (
           <SocialLinkWrapper href={socialAccounts.twitter}>
-            <SiTwitter {...svgProps} />
+            <Rumble {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.instagram && (
