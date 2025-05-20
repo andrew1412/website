@@ -69,7 +69,7 @@ export default function Fotos() {
                   <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 hover:scale-105 transition duration-500">
                     <div class="flex-row text-center">
                       <h1 class="text-white font-bold text-lg">
-                        FUMOS
+                        FUMO
                       </h1>
                     </div>
                   </div>
@@ -103,7 +103,7 @@ export default function Fotos() {
                   <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 hover:scale-105 transition duration-500">
                     <div class="flex-row text-center">
                       <h1 class="text-white font-bold text-lg">
-                        DRAWINGS
+                        DRAWING
                       </h1>
                     </div>
                   </div>
