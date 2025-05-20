@@ -23,9 +23,8 @@ import {
   SiYoutube,
   SiTwitch,
   SiTwitter,
+  SiRumble,
 } from "react-icons/si";
-
-import { SiRumble } from "react-icons/si";
 
 import SocialLinkWrapper from "./SocialLinkWrapper.tsx";
 
