@@ -23,8 +23,9 @@ import {
   SiYoutube,
   SiTwitch,
   SiTwitter,
-  Rumble,
 } from "react-icons/si";
+
+import { SiRumble } from "react-icons/si";
 
 import SocialLinkWrapper from "./SocialLinkWrapper.tsx";
 
@@ -55,7 +56,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.twitter && (
           <SocialLinkWrapper href={socialAccounts.twitter}>
-            <Rumble {...svgProps} />
+            <SiRumble {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.instagram && (
