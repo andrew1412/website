@@ -31,7 +31,7 @@ export default function Feed(
         </h2>
         <h4 class="text-xs font-semibold text-cream">
           {(new Date(entry.date)).toLocaleDateString(
-            "es-ES",
+            "en-US",
             options,
           )}
         </h4>
