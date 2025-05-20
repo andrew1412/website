@@ -11,6 +11,7 @@ import {
   Twitter,
   Youtube,
 } from "preact-feather";
+
 import {
   SiGithub,
   SiMaildotru,
@@ -22,8 +23,9 @@ import {
   SiYoutube,
   SiTwitch,
   SiTwitter,
-  SiRumble,
+  Rumble,
 } from "react-icons/si";
+
 import SocialLinkWrapper from "./SocialLinkWrapper.tsx";
 
 import type Profile from "../profile/type.ts";
@@ -53,7 +55,7 @@ export default function SocialLinks(
         )}
         {socialAccounts?.twitter && (
           <SocialLinkWrapper href={socialAccounts.twitter}>
-            <SiRumble {...svgProps} />
+            <SiTwitter {...svgProps} />
           </SocialLinkWrapper>
         )}
         {socialAccounts?.instagram && (
