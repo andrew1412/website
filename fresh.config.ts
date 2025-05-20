@@ -13,7 +13,7 @@ export default defineConfig({
   ],
 
   render: (ctx, render) => {
-    ctx.lang = "es";
+    ctx.lang = "en";
     render();
   },
 });
