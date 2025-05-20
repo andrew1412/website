@@ -30,7 +30,7 @@ export default function Fotos() {
   return (
     <>
       <Head>
-        <title>Fumos</title>
+        <title>Fumo</title>
       </Head>
       <a
         class="bg-metal px-2 py-2 rounded-lg fixed top-4 left-4"
