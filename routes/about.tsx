@@ -36,7 +36,7 @@ export default function AboutPage({ data }: PageProps<HandlerProps>) {
   return (
     <>
       <Head>
-        <title>Sobre mi</title>
+        <title>About me</title>
         <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
       <a
