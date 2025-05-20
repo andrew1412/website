@@ -40,7 +40,7 @@
         "facebook": {
           "type": "string",
           "format": "uri",
-          "pattern": "^(https)://steamcommunity.com/"
+          "pattern": "^(https)://twitch.tv/"
         },
         "github": {
           "type": "string",
