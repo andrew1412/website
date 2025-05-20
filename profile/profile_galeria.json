@@ -1,7 +1,7 @@
 {
   "$schema": "schema.json",
   "avatar": "https://github.com/andrew1412/website/raw/main/static/logos/andrew1412.pfp.sunglasses.webp",
-  "username": "Galeria",
+  "username": "Gallery",
   "links": [
     { "url": "/blog", "title": "Blog" },
     { "url": "/galeria", "title": "Galeria" },
