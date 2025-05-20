@@ -146,7 +146,7 @@ export default function Fotos() {
             src="https://giscus.app/client.js"
             data-repo="andrew1412/website"
             data-repo-id="R_kgDOKAnBjw"
-            data-category="Comentarios"
+            data-category="Comments"
             data-category-id="DIC_kwDOKAnBj84CY7Yt"
             data-mapping="title"
             data-strict="1"
@@ -154,7 +154,7 @@ export default function Fotos() {
             data-emit-metadata="0"
             data-input-position="top"
             data-theme="dark"
-            data-lang="es"
+            data-lang="en"
             data-loading="lazy"
             crossOrigin="anonymous"
             async
