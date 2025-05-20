@@ -60,7 +60,7 @@
         "twitter": {
           "type": "string",
           "format": "uri",
-          "pattern": "^(https)://discord.gg/"
+          "pattern": "^(https)://rumble.com/"
         },
         "youtube": {
           "type": "string",
