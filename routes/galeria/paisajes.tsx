@@ -30,7 +30,7 @@ export default function Fotos() {
   return (
     <>
       <Head>
-        <title>Paisajes</title>
+        <title>Photograph</title>
       </Head>
       <a
         class="bg-metal px-2 py-2 rounded-lg fixed top-4 left-4"
@@ -154,7 +154,7 @@ export default function Fotos() {
             data-emit-metadata="0"
             data-input-position="top"
             data-theme="dark"
-            data-lang="es"
+            data-lang="en"
             data-loading="lazy"
             crossOrigin="anonymous"
             async
