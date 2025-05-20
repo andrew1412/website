@@ -30,7 +30,7 @@ export default function Fotos() {
   return (
     <>
       <Head>
-        <title>Dibujos</title>
+        <title>Drawings</title>
       </Head>
       <a
         class="bg-metal px-2 py-2 rounded-lg fixed top-4 left-4"
@@ -98,7 +98,7 @@ export default function Fotos() {
             src="https://giscus.app/client.js"
             data-repo="andrew1412/website"
             data-repo-id="R_kgDOKAnBjw"
-            data-category="Comentarios"
+            data-category="Comments"
             data-category-id="DIC_kwDOKAnBj84CY7Yt"
             data-mapping="title"
             data-strict="1"
