@@ -10,10 +10,10 @@ export const handler: Handlers<Post[]> = {
     const copyright = `Copyright ${new Date().getFullYear()} ${origin}`;
     const feed = new Feed({
       title: "Andrew 1412",
-      description: "Blog personal de Andrew 1412",
+      description: "Personal blog of Andrew 1412",
       id: `${origin}/blog`,
       link: `${origin}/blog`,
-      language: "es",
+      language: "en",
       favicon: `${origin}/static/favicon.ico`,
       copyright: copyright,
       generator: "Feed (https://github.com/jpmonette/feed) for Deno",
