@@ -3,8 +3,8 @@
   "avatar": "https://github.com/andrew1412/website/raw/main/static/logos/andrew1412.pfp.webp",
   "username": "Andrew 1412",
   "links": [
-    { "url": "/blog", "title": "🖋️ Blog" },
-    { "url": "/galeria", "title": "📷 Gallery" }
+    { "url": "/galeria", "title": "📷 Gallery" },
+    { "url": "/blog", "title": "🖋️ Blog" }
   ],
   "bio": "🐈‍⬛ Vtuber",
   "location": "Chile",
