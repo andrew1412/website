@@ -24,6 +24,7 @@ import {
   SiTwitch,
   SiTwitter,
   SiRumble,
+  SiKick,
 } from "react-icons/si";
 
 import SocialLinkWrapper from "./SocialLinkWrapper.tsx";
@@ -48,42 +49,49 @@ export default function SocialLinks(
             <SiYoutube {...svgProps} />
           </SocialLinkWrapper>
         )}
+
+        {socialAccounts?.matrix && (
+          <SocialLinkWrapper href={socialAccounts.matrix}>
+            <SiRumble {...svgProps} />
+          </SocialLinkWrapper>
+        )}
+        
         {socialAccounts?.facebook && (
           <SocialLinkWrapper href={socialAccounts.facebook}>
            <SiTwitch {...svgProps} />
           </SocialLinkWrapper>
         )}
-        {socialAccounts?.twitter && (
-          <SocialLinkWrapper href={socialAccounts.twitter}>
-            <SiRumble {...svgProps} />
-          </SocialLinkWrapper>
-        )}
+        
         {socialAccounts?.instagram && (
           <SocialLinkWrapper href={socialAccounts.instagram}>
-            <SiDiscord {...svgProps} />
+            <SiKick {...svgProps} />
           </SocialLinkWrapper>
         )}
         
-        {socialAccounts?.matrix && (
-          <SocialLinkWrapper href={socialAccounts.matrix}>
-            <SiMaildotru {...svgProps} />
+        {socialAccounts?.twitter && (
+          <SocialLinkWrapper href={socialAccounts.twitter}>
+            <SiTwitter {...svgProps} />
           </SocialLinkWrapper>
         )}
+        
         {socialAccounts?.github && (
           <SocialLinkWrapper href={socialAccounts.github}>
             <SiAnilist {...svgProps} />
           </SocialLinkWrapper>
         )}
+        
         {socialAccounts?.dribbble && (
           <SocialLinkWrapper href={socialAccounts.dribbble}>
             <Dribbble {...svgProps} />
           </SocialLinkWrapper>
         )}
+        
         {socialAccounts?.website && (
           <SocialLinkWrapper href={socialAccounts.website}>
             <Globe {...svgProps} />
           </SocialLinkWrapper>
         )}
+        
         {socialAccounts?.mail && (
           <SocialLinkWrapper href={`mailto:${socialAccounts.mail}`}>
             <SiMaildotru {...svgProps} />
