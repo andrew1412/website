@@ -8,7 +8,7 @@ export default function Banner(
 
   return (
     <div class="rounded-2xl px-4 py-4 mb-4 min-w-full bg-blue">
-      <a href="https://streamelements.com/andrew1412/tip" target="_blank" rel="noopener noreferrer">
+      <a href="https://streamelements.com/kahanistweeb/tip" target="_blank" rel="noopener noreferrer">
        <div class="flex space-x-4">
          <div>
            <SiPaypal size={20} color={"#89b5fa"} />
